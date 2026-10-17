@@ -1,0 +1,338 @@
+{
+  "Original|sciq-validation-232": {
+    "model": "Original",
+    "id": "sciq-validation-232",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage states that the post-anal tail is opposite the head.",
+    "fingerprint": "fd3b486495491826557903692377ec9f6916cfafb1eaaf808954e902470ed327"
+  },
+  "V3 step-250|sciq-validation-232": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-232",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage states that the post-anal tail is opposite the head.",
+    "fingerprint": "fd3b486495491826557903692377ec9f6916cfafb1eaaf808954e902470ed327"
+  },
+  "Original|sciq-validation-599": {
+    "model": "Original",
+    "id": "sciq-validation-599",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly calls the rising and sinking of warm and cooler material convection.",
+    "fingerprint": "ce15bf6adaca50591ca75b5aaeaea62329743bbf6aa3ad734d09dc9a97c85b09"
+  },
+  "V3 step-250|sciq-validation-599": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-599",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly identifies this rising and sinking as convection.",
+    "fingerprint": "091ec8e35ba6fbbb6812ff7ee1d0ef8eca9436f1becb85d45377361d0d81c2e5"
+  },
+  "Original|sciq-validation-185": {
+    "model": "Original",
+    "id": "sciq-validation-185",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage identifies radiation as potentially harmful and useful for detecting and treating cancer.",
+    "fingerprint": "98f9b70cdc8689f1451968ed984b186f9acd19fff629eca4913f8739a1e69c55"
+  },
+  "V3 step-250|sciq-validation-185": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-185",
+    "subject": "science",
+    "status": "correct",
+    "note": "Radiation is the answer supported by the passage, which describes harmful effects and uses in detecting and treating cancer.",
+    "fingerprint": "9a685a216fdd76319987a3bd10a737ee7089562c73caa3530bb9043a287cb4b0"
+  },
+  "Original|sciq-validation-625": {
+    "model": "Original",
+    "id": "sciq-validation-625",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that arthropods are the largest phylum of the animal kingdom.",
+    "fingerprint": "ffcaffcb32d4c955a5403ea55dad5f590d38874f23dfee3dff68f31d7127ffbe"
+  },
+  "V3 step-250|sciq-validation-625": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-625",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that arthropods are the largest phylum of the animal kingdom.",
+    "fingerprint": "00588ea3b70564d681e507e1b4dddd4e27db2698fd11b78aa7d97e2dabf763e3"
+  },
+  "Original|sciq-validation-416": {
+    "model": "Original",
+    "id": "sciq-validation-416",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage names the brown pigment as melanin.",
+    "fingerprint": "5843da3fbf9af3a93112880dfcb585a014e8c97672888a47b05e04df35b78e40"
+  },
+  "V3 step-250|sciq-validation-416": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-416",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage names the brown pigment as melanin.",
+    "fingerprint": "5843da3fbf9af3a93112880dfcb585a014e8c97672888a47b05e04df35b78e40"
+  },
+  "Original|sciq-validation-485": {
+    "model": "Original",
+    "id": "sciq-validation-485",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that index fossils are useful for determining the ages of rock layers.",
+    "fingerprint": "d81903caf2a392472a6f20fe81e091a3a86370c5e9ffaa6785bdced49a22e96c"
+  },
+  "V3 step-250|sciq-validation-485": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-485",
+    "subject": "science",
+    "status": "correct",
+    "note": "“Index” correctly identifies index fossils in the context of the question and passage.",
+    "fingerprint": "0dbf1865d467878b9db16495fd60f85c1f306ebde17f69f4c5410b8f8126aeeb"
+  },
+  "Original|sciq-validation-532": {
+    "model": "Original",
+    "id": "sciq-validation-532",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage states that these cells may differentiate into cells with special functions.",
+    "fingerprint": "9b4c3ce96ab152ee86d79e6b52f224c2093ef43dd09808989bc32b72f60ce7fe"
+  },
+  "V3 step-250|sciq-validation-532": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-532",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that the differentiated cells have special functions.",
+    "fingerprint": "227c197b28d6bd0ab224438f29e3d5cd6c18dfd41d9e8d267378ad7c8e6360ca"
+  },
+  "Original|sciq-validation-994": {
+    "model": "Original",
+    "id": "sciq-validation-994",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage defines wave frequency as the number of waves passing a fixed point in a given amount of time.",
+    "fingerprint": "e54b83b8eadb4238c8e5933901b3486a98eda1b45839d9d590344e6ff9c9059e"
+  },
+  "V3 step-250|sciq-validation-994": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-994",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage defines wave frequency as the number of waves passing a fixed point in a given amount of time.",
+    "fingerprint": "f7ee22fd35c98c1a9756c5eb7b556432128fd84f73a107e0c5a604e78794759a"
+  },
+  "Original|sciq-validation-229": {
+    "model": "Original",
+    "id": "sciq-validation-229",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage states that electromagnetic waves consist of vibrating electric and magnetic fields.",
+    "fingerprint": "2e286cd425084ab3edb5038e65feac04c7ba450ae6e6451b184a0b6eecc2b645"
+  },
+  "V3 step-250|sciq-validation-229": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-229",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer correctly identifies the electric and magnetic fields described in the passage.",
+    "fingerprint": "312ff6326b23f6563119983a79e4f649ae52d711b107a249335629b123b7a025"
+  },
+  "Original|sciq-validation-587": {
+    "model": "Original",
+    "id": "sciq-validation-587",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that flatworms have three embryonic cell layers.",
+    "fingerprint": "3e672cae8fb65ca33932ce935c81c6103b65ca5ed5182b9662da0690174c74e4"
+  },
+  "V3 step-250|sciq-validation-587": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-587",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that flatworms have three embryonic cell layers.",
+    "fingerprint": "7f44f768a4cdac7fee110aba433c870d65cb63b9c744bd10b083233a8f4104da"
+  },
+  "Original|sciq-validation-688": {
+    "model": "Original",
+    "id": "sciq-validation-688",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that molality differs from molarity only in the denominator.",
+    "fingerprint": "ee34f019cc6b2c3495366845edc477fa764a7a0b582394448ee66653055e994e"
+  },
+  "V3 step-250|sciq-validation-688": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-688",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that molality differs from molarity only in the denominator.",
+    "fingerprint": "ab7eafa79eea2a331fe0755d0fa025cafe45dedbd6b81caea55d073180b543ac"
+  },
+  "Original|sciq-validation-772": {
+    "model": "Original",
+    "id": "sciq-validation-772",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage defines ecological succession as the process in which a community changes through time.",
+    "fingerprint": "ded1ee9a72b13d759f9965e644c49a08b9698855d5abaa5832095b11f18fd2f0"
+  },
+  "V3 step-250|sciq-validation-772": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-772",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage defines ecological succession as the process in which a community changes through time.",
+    "fingerprint": "fdd4510cc39bd92567cc97c4642c921e933b358217bf330cd87d58345cf74cf4"
+  },
+  "Original|sciq-validation-685": {
+    "model": "Original",
+    "id": "sciq-validation-685",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that double fertilization is unique to angiosperms.",
+    "fingerprint": "4a58940dbd26b2ab603278adc6b4e335c48cf9f295e4a03557aa559d68204bda"
+  },
+  "V3 step-250|sciq-validation-685": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-685",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage identifies double fertilization, so fertilization correctly answers which reproductive process is involved.",
+    "fingerprint": "8ec610e8b2501e0c3b265b8b194b3a98833580bd236af6be2db0562a7047bac8"
+  },
+  "Original|sciq-validation-559": {
+    "model": "Original",
+    "id": "sciq-validation-559",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly associates black with the absence of light.",
+    "fingerprint": "c3f399fc76fa935c3d9fdbd9e40ba07e0291720a25d6dffc9da37245878d4d50"
+  },
+  "V3 step-250|sciq-validation-559": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-559",
+    "subject": "science",
+    "status": "correct",
+    "note": "it mathing",
+    "fingerprint": "a0ebcfcfa801b7089f04a5e38e66b6fb71e71017c0dcec35c9dfefcac9908884"
+  },
+  "Original|sciq-validation-392": {
+    "model": "Original",
+    "id": "sciq-validation-392",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly names artificial selection. The target contains a spelling error.",
+    "fingerprint": "ed652a16a51ce7544e4e35e9c179cb21e182a518cdbb8c8076f1821c1ef06eb8"
+  },
+  "V3 step-250|sciq-validation-392": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-392",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly names artificial selection. The target contains a spelling error.",
+    "fingerprint": "dabc02f40d868b4ad00a83cc4a927645ce48d6a490d13d0f46e480ebcfe7c4be"
+  },
+  "Original|sciq-validation-120": {
+    "model": "Original",
+    "id": "sciq-validation-120",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage defines quantum mechanics as the study of motion of objects that are atomic or subatomic in size.",
+    "fingerprint": "dab0e94e22022f1f0b5642d21116916b705e08f3c88ba04d9ccf0884e20b0bbe"
+  },
+  "V3 step-250|sciq-validation-120": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-120",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage defines quantum mechanics as the study of motion of objects that are atomic or subatomic in size.",
+    "fingerprint": "31e064f833f114ea8b5b8ae160fe6d418f3144ab0729ea099dbf7129cc36e0a6"
+  },
+  "Original|sciq-validation-297": {
+    "model": "Original",
+    "id": "sciq-validation-297",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly describes oxygen produced during photosynthesis as a waste product.",
+    "fingerprint": "b6dd148660d83397aca01e7f0fa326e602a800c28566008d2a28749e1a48d60d"
+  },
+  "V3 step-250|sciq-validation-297": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-297",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly describes oxygen produced during photosynthesis as a waste product.",
+    "fingerprint": "9132be607ce04e8466d16c5c0ec8226f590438049483621f62dc1d1a05e82ead"
+  },
+  "Original|sciq-validation-89": {
+    "model": "Original",
+    "id": "sciq-validation-89",
+    "subject": "science",
+    "status": "ambiguous",
+    "note": "Potassium is factually correct and matches the target, but the passage does not supply it. The target conflicts with the passage-only instruction.",
+    "fingerprint": "4a804133ca60120bdbe9a262ca6ac2cc3c725d29a99d022c9398983471c14fa1"
+  },
+  "V3 step-250|sciq-validation-89": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-89",
+    "subject": "science",
+    "status": "ambiguous",
+    "note": "Potassium matches the target, but the passage does not supply the answer. The target conflicts with the passage-only instruction.",
+    "fingerprint": "a50d45b8ec18bb6b07ba117bd1d4a9df13ceb3c63b977e289f02595ebe549741"
+  },
+  "Original|sciq-validation-169": {
+    "model": "Original",
+    "id": "sciq-validation-169",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that fertilization occurs when a sperm and an egg fuse.",
+    "fingerprint": "24a02167cbd32852884a944119375280f68a7b92396e1773d773bfbd57b11bd1"
+  },
+  "V3 step-250|sciq-validation-169": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-169",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that fertilization occurs when a sperm and an egg fuse.",
+    "fingerprint": "7b85e06327a73b69b61d92725d2ae654c064ec3e4df2a3756811d7350b47c829"
+  },
+  "Original|sciq-validation-740": {
+    "model": "Original",
+    "id": "sciq-validation-740",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that heavy metals build up in organisms’ tissues by bioaccumulation.",
+    "fingerprint": "b2ae73a9a7809bfa4d43a1a67d6b60cad2d1416faa926c935062cf97aaa1f8ae"
+  },
+  "V3 step-250|sciq-validation-740": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-740",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that heavy metals build up in organisms’ tissues by bioaccumulation.",
+    "fingerprint": "375ac2af6bd1826958ffe3b4f0ecb063af800abeb9c799a5347804bbba132bf7"
+  },
+  "Original|sciq-validation-554": {
+    "model": "Original",
+    "id": "sciq-validation-554",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that rapid growth and new abilities develop during infancy and childhood.",
+    "fingerprint": "eee049b0d201efe86bb92c38bd96b0f76f7c5d119c488e4c8aaba9c566c9eedc"
+  },
+  "V3 step-250|sciq-validation-554": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-554",
+    "subject": "science",
+    "status": "correct",
+    "note": "The passage explicitly states that rapid growth and new abilities develop during infancy and childhood.",
+    "fingerprint": "2c056e953389985b00e280bc205cbae2e22c593a251bc0beed024353481eec87"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+  "device": "cpu",
+  "dtype": "float32",
+  "split": "validation",
+  "sampling_seed": 42,
+  "max_new_tokens": 768,
+  "do_sample": false,
+  "predictions": [
+    {
+      "id": "gsm8k-train-3566",
+      "subject": "mathematics",
+      "question": "A class has 60 students. The number of students who bring their lunch is thrice the number of those who eat in the school cafeteria. The rest of the students don't eat lunch. If 10 students eat in the school cafeteria, how many don't eat lunch?",
+      "target": "Multiplying the number of students eating at the cafeteria by three means that 3 * 10 = 30 students bring lunch.\nThe total number of students that eat lunch is 10 + 30 = 40 students\nSince the class has 60 students, those who don't eat lunch are 60-40 = 20 students.\nFinal answer: 20",
+      "prediction": "To determine how many students don't eat lunch, we need to follow these steps:\n\n1. Identify the number of students who eat in the school cafeteria.\n2. Calculate the number of students who bring their lunch.\n3. Determine the number of students who don't eat lunch by subtracting the number of students who eat in the cafeteria and those who bring their lunch from the total number of students.\n\nGiven:\n- The total number of students is 60.\n- The number of students who eat in the school cafeteria is 10.\n- The number of students who bring their lunch is three times the number of those who eat in the school cafeteria.\n\nFirst, calculate the number of students who bring their lunch:\n\\[ \\text{Number of students who bring their lunch} = 3 \\times \\text{Number of students who eat in the cafeteria} = 3 \\times 10 = 30 \\]\n\nNext, determine the number of students who don't eat lunch by subtracting the number of students who eat in the cafeteria and those who bring their lunch from the total number of students:\n\\[ \\text{Number of students who don't eat lunch} = \\text{Total number of students} - \\text{Number of students who eat in the cafeteria} - \\text{Number of students who bring their lunch} \\]\n\\[ \\text{Number of students who don't eat lunch} = 60 - 10 - 30 = 20 \\]\n\nTherefore, the number of students who don't eat lunch is \\(\\boxed{20}\\).",
+      "generated_tokens": 325
+    }
+  ]
+}

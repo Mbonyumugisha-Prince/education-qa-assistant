@@ -1,0 +1,51 @@
+{
+  "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+  "device": "cpu",
+  "dtype": "float32",
+  "split": "validation",
+  "sampling_seed": 42,
+  "max_new_tokens": 768,
+  "do_sample": false,
+  "predictions": [
+    {
+      "id": "gsm8k-train-3566",
+      "subject": "mathematics",
+      "question": "A class has 60 students. The number of students who bring their lunch is thrice the number of those who eat in the school cafeteria. The rest of the students don't eat lunch. If 10 students eat in the school cafeteria, how many don't eat lunch?",
+      "target": "Multiplying the number of students eating at the cafeteria by three means that 3 * 10 = 30 students bring lunch.\nThe total number of students that eat lunch is 10 + 30 = 40 students\nSince the class has 60 students, those who don't eat lunch are 60-40 = 20 students.\nFinal answer: 20",
+      "prediction": "To determine how many students don't eat lunch, we need to follow these steps:\n\n1. Identify the number of students who eat in the school cafeteria.\n2. Calculate the number of students who bring their lunch.\n3. Determine the number of students who don't eat lunch by subtracting the number of students who eat in the cafeteria and those who bring their lunch from the total number of students.\n\nGiven:\n- The total number of students is 60.\n- The number of students who eat in the school cafeteria is 10.\n- The number of students who bring their lunch is three times the number of those who eat in the school cafeteria.\n\nFirst, calculate the number of students who bring their lunch:\n\\[ \\text{Number of students who bring their lunch} = 3 \\times \\text{Number of students who eat in the cafeteria} = 3 \\times 10 = 30 \\]\n\nNext, determine the number of students who don't eat lunch by subtracting the number of students who eat in the cafeteria and those who bring their lunch from the total number of students:\n\\[ \\text{Number of students who don't eat lunch} = \\text{Total number of students} - \\text{Number of students who eat in the cafeteria} - \\text{Number of students who bring their lunch} \\]\n\\[ \\text{Number of students who don't eat lunch} = 60 - 10 - 30 = 20 \\]\n\nTherefore, the number of students who don't eat lunch is \\(\\boxed{20}\\).",
+      "generated_tokens": 325
+    },
+    {
+      "id": "gsm8k-train-5941",
+      "subject": "mathematics",
+      "question": "Aunt May milks her cows twice a day. This morning she got 365 gallons of milk. This evening she got 380 gallons. She sold 612 gallons to the local ice cream factory. She had 15 gallons left over from yesterday. How many gallons of milk does she have left?",
+      "target": "Today Aunt May's cows gave her 365 gallons + 380 = 745 gallons of milk.\nShe had 745 gallons - 612 gallons sold to the ice cream factory = 133 gallons of milk left.\nCombined with the leftover from yesterday, Aunt May has 133 gallons + 15 gallons = 148 gallons of milk.\nFinal answer: 148",
+      "prediction": "To determine how many gallons of milk Aunt May has left, we need to follow these steps:\n\n1. Calculate the total amount of milk collected today.\n2. Add the leftover milk from yesterday to the total collected today.\n3. Subtract the amount of milk sold to the local ice cream factory from the total amount of milk available.\n\nLet's go through each step in detail:\n\n1. Calculate the total amount of milk collected today:\n   - Morning milk: 365 gallons\n   - Evening milk: 380 gallons\n   - Total milk collected today: \\(365 + 380 = 745\\) gallons\n\n2. Add the leftover milk from yesterday to the total collected today:\n   - Leftover milk from yesterday: 15 gallons\n   - Total milk available: \\(745 + 15 = 760\\) gallons\n\n3. Subtract the amount of milk sold to the local ice cream factory from the total amount of milk available:\n   - Milk sold: 612 gallons\n   - Milk left: \\(760 - 612 = 148\\) gallons\n\nTherefore, the number of gallons of milk Aunt May has left is \\(\\boxed{148}\\).",
+      "generated_tokens": 259
+    },
+    {
+      "id": "gsm8k-train-1658",
+      "subject": "mathematics",
+      "question": "James needs 200 blueberries to make a pint of blueberry jam and then a quart of blueberry jam to make a blueberry pie. If there are two pints per quart, how many blueberries does James need to pick to make 6 pies?",
+      "target": "First find the total number of blueberries needed for one pie: 200 blueberries/pint * 2 pints/pie = 400 blueberries/pie\nThen multiply that number by the number of pie to find the total number of blueberries James need: 400 blueberries/pie * 6 pies = 2400 blueberries\nFinal answer: 2400",
+      "prediction": "To determine how many blueberries James needs to pick to make 6 pies, we need to break down the problem step by step.\n\n1. **Determine the number of blueberries needed for one pint of jam:**\n   James needs 200 blueberries to make one pint of blueberry jam.\n\n2. **Determine the number of blueberries needed for one quart of jam:**\n   Since there are two pints in a quart, James needs \\(2 \\times 200 = 400\\) blueberries to make one quart of blueberry jam.\n\n3. **Determine the number of blueberries needed for one pie:**\n   James needs one quart of jam to make one pie, so he needs 400 blueberries for one pie.\n\n4. **Determine the number of blueberries needed for six pies:**\n   Since one pie requires 400 blueberries, six pies will require \\(6 \\times 400 = 2400\\) blueberries.\n\nTherefore, the total number of blueberries James needs to pick to make 6 pies is \\(\\boxed{2400}\\).",
+      "generated_tokens": 239
+    },
+    {
+      "id": "gsm8k-train-2616",
+      "subject": "mathematics",
+      "question": "Don buys recyclable bottles in a small town. Shop A normally sells him 150 bottles, shop B sells him 180 bottles and Shop C sells him the rest. How many bottles does Don buy from Shop C if he is capable of buying only 550 bottles?",
+      "target": "Between Shop A and Shop B he buys 150 bottles+180 bottles=330 bottles\nThus he can buy 550 bottles-330 bottles=220 bottles from shop C\nFinal answer: 220",
+      "prediction": "To determine how many bottles Don buys from Shop C, we need to follow these steps:\n\n1. Identify the total number of bottles Don buys.\n2. Determine the number of bottles Don buys from Shop A and Shop B.\n3. Subtract the number of bottles bought from Shop A and Shop B from the total number of bottles to find out how many bottles Don buys from Shop C.\n\nLet's start with the total number of bottles Don buys, which is 550 bottles.\n\nNext, we know that Don buys 150 bottles from Shop A and 180 bottles from Shop B. So, we add the number of bottles bought from Shop A and Shop B:\n\n\\[ 150 + 180 = 330 \\]\n\nNow, we subtract the number of bottles bought from Shop A and Shop B from the total number of bottles to find out how many bottles Don buys from Shop C:\n\n\\[ 550 - 330 = 220 \\]\n\nTherefore, the number of bottles Don buys from Shop C is \\(\\boxed{220}\\).",
+      "generated_tokens": 227
+    },
+    {
+      "id": "gsm8k-train-4311",
+      "subject": "mathematics",
+      "question": "There is a fruit display that has apples, oranges, and bananas. There are twice as many apples as oranges, and there are twice as many oranges as bananas. How many fruits are on the display in total if there are 5 bananas on the display?",
+      "target": "We start by finding out that since there are twice as many oranges as the 5 bananas, this means there are 5*2=10 oranges.\nSince there are twice as many apples as the 10 oranges, this means there 10*2=20 apples.\nIn total, this means there are 20+10+5= 35 fruits on the display.\nFinal answer: 35",
+      "prediction": "To determine the total number of fruits on the display, we need to find the number of apples, oranges, and bananas and then sum them up. Let's start with the information given:\n\n1. There are 5 bananas on the display.\n2. There are twice as many oranges as bananas.\n3. There are twice as many apples as oranges.\n\nLet's denote the number of bananas as \\( B \\), the number of oranges as \\( O \\), and the number of apples as \\( A \\). From the problem, we know:\n\\[ B = 5 \\]\n\\[ O = 2B \\]\n\\[ A = 2O \\]\n\nFirst, we calculate the number of oranges:\n\\[ O = 2B = 2 \\times 5 = 10 \\]\n\nNext, we calculate the number of apples:\n\\[ A = 2O = 2 \\times 10 = 20 \\]\n\nNow, we sum the number of apples, oranges, and bananas to find the total number of fruits:\n\\[ \\text{Total number of fruits} = A + O + B = 20 + 10 + 5 = 35 \\]\n\nTherefore, the total number of fruits on the display is \\(\\boxed{35}\\).",
+      "generated_tokens": 262
+    }
+  ]
+}

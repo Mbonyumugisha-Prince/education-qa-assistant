@@ -1,0 +1,64 @@
+{
+  "metric": "Manual acceptance under stated review rules",
+  "note": "Mathematics requires consistent reasoning as well as a correct result. Flagged questions are excluded. These are validation-sample results.",
+  "summary": {
+    "Original": {
+      "science": {
+        "counts": {
+          "correct": 48,
+          "ambiguous": 2
+        },
+        "eligible_questions": 48,
+        "reviewed_success_rate": 1.0
+      },
+      "mathematics": {
+        "counts": {
+          "correct": 38,
+          "wrong": 11,
+          "ambiguous": 1
+        },
+        "eligible_questions": 49,
+        "reviewed_success_rate": 0.7755102040816326
+      }
+    },
+    "V3 step-250": {
+      "science": {
+        "counts": {
+          "correct": 48,
+          "ambiguous": 2
+        },
+        "eligible_questions": 48,
+        "reviewed_success_rate": 1.0
+      },
+      "mathematics": {
+        "counts": {
+          "correct": 40,
+          "wrong": 9,
+          "ambiguous": 1
+        },
+        "eligible_questions": 49,
+        "reviewed_success_rate": 0.8163265306122449
+      }
+    },
+    "V4 step-480": {
+      "science": {
+        "counts": {
+          "correct": 47,
+          "ambiguous": 2,
+          "wrong": 1
+        },
+        "eligible_questions": 48,
+        "reviewed_success_rate": 0.9791666666666666
+      },
+      "mathematics": {
+        "counts": {
+          "correct": 26,
+          "wrong": 23,
+          "ambiguous": 1
+        },
+        "eligible_questions": 49,
+        "reviewed_success_rate": 0.5306122448979592
+      }
+    }
+  }
+}

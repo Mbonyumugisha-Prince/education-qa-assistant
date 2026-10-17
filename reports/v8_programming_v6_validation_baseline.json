@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-17T12:17:20.855245+00:00",
+  "evaluation": "V6 programming validation baseline",
+  "dataset": "data/processed/v8_programming_pilot/validation.jsonl",
+  "adapter": "models/qwen-general-lora-v6/step-100",
+  "generation_path": "EducationAssistant.answer",
+  "expected_examples": 2,
+  "completed": true,
+  "programs_executed": false,
+  "training_performed": false,
+  "results": [
+    {
+      "id": "v8-longest_equal_run-python",
+      "language": "python",
+      "problem_family": "longest_equal_run",
+      "question": "Read n followed by n integers separated by arbitrary whitespace. Assume n >= 0. Print the length of the longest consecutive run of equal values. For an empty list, print 0. Values fit in a signed 64-bit integer.",
+      "answer": "```python\nimport sys\n\ndef max_consecutive_run(values):\n    if len(values) == 0:\n        return 0\n    \n    max_length = 1\n    current_length = 1\n    \n    for i in range(1, len(values)):\n        if int(values[i]) == int(values[i-1]):\n            current_length += 1\n            max_length = max(max_length, current_length)\n        else:\n            current_length = 1\n            \n    return max_length\n\nn = int(input().strip())\nvalues = [input().strip() for _ in range(n)]\nprint(max_consecutive_run(values))\n```\n\nExplanation:\n\nThe function `max_consecutive_run` takes a list of strings as input and returns the maximum length of a sequence of identical numbers.\n\nWe first check if the input list is empty. If it is, we immediately return 0 because there can't be any consecutive runs.\n\nNext, we initialize two variables: `max_length`, which keeps track of the maximum length found so far, and `current_length`, which counts the number of consecutive identical elements currently being considered.\n\nWe iterate through the list starting from the second element (index 1). For each pair of adjacent elements, we compare them. If they match, we increment `current_length`. Otherwise, we reset `current_length` to 1.\n\nAfter processing all pairs, we update `max_length` with the larger value between its current value and `current_length`.\n\nFinally, we call this function on the provided list of inputs and print the result.\n\nExample Input:\n```\n5\n3 2 3 2 3 2 3\n```\n\nExpected Output:\n```\n3\n```",
+      "extracted_program": "import sys\n\ndef max_consecutive_run(values):\n    if len(values) == 0:\n        return 0\n    \n    max_length = 1\n    current_length = 1\n    \n    for i in range(1, len(values)):\n        if int(values[i]) == int(values[i-1]):\n            current_length += 1\n            max_length = max(max_length, current_length)\n        else:\n            current_length = 1\n            \n    return max_length\n\nn = int(input().strip())\nvalues = [input().strip() for _ in range(n)]\nprint(max_consecutive_run(values))",
+      "requested_language_block_found": true,
+      "duration_seconds": 93.077,
+      "execution_status": "not_run",
+      "correctness": "not_scored"
+    },
+    {
+      "id": "v8-longest_equal_run-java",
+      "language": "java",
+      "problem_family": "longest_equal_run",
+      "question": "Read n followed by n integers separated by arbitrary whitespace. Assume n >= 0. Print the length of the longest consecutive run of equal values. For an empty list, print 0. Values fit in a signed 64-bit integer.",
+      "answer": "```java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        long maxRunLength = 0;\n        \n        for (int i = 1; i <= n; i++) {\n            long currentNumber = scanner.nextLong();\n            if (i == 1 || currentNumber != previousNumber) {\n                long currentRunLength = 1;\n                while (scanner.hasNextLong() && scanner.nextLong().equals(currentNumber)) {\n                    currentRunLength++;\n                }\n                maxRunLength = Math.max(maxRunLength, currentRunLength);\n            } else {\n                // Handle consecutive numbers case\n            }\n            \n            previousNumber = currentNumber;\n        }\n        \n        System.out.println((int)maxRunLength);\n    }\n}\n```\n\nExplanation:\n- The program reads `n` integers from standard input.\n- It initializes variables to keep track of the maximum run length (`maxRunLength`) and the last number seen (`previousNumber`).\n- It iterates through each number, checking if it's different from the previous number.\n- If it is different, it calculates the length of the current run and updates `maxRunLength`.\n- If it's the same as the previous number, it continues counting the run.\n- Finally, it prints the maximum run length.\n\nExample Input:\n```\n5\n3 2 3 2 3\n```\n\nExpected Output:\n```\n3\n```",
+      "extracted_program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        long maxRunLength = 0;\n        \n        for (int i = 1; i <= n; i++) {\n            long currentNumber = scanner.nextLong();\n            if (i == 1 || currentNumber != previousNumber) {\n                long currentRunLength = 1;\n                while (scanner.hasNextLong() && scanner.nextLong().equals(currentNumber)) {\n                    currentRunLength++;\n                }\n                maxRunLength = Math.max(maxRunLength, currentRunLength);\n            } else {\n                // Handle consecutive numbers case\n            }\n            \n            previousNumber = currentNumber;\n        }\n        \n        System.out.println((int)maxRunLength);\n    }\n}",
+      "requested_language_block_found": true,
+      "duration_seconds": 110.722,
+      "execution_status": "not_run",
+      "correctness": "not_scored"
+    }
+  ]
+}

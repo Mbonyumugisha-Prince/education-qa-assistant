@@ -1,0 +1,135 @@
+import json
+from pathlib import Path
+
+
+def main():
+    root = Path(__file__).resolve().parents[1]
+    output = root / "reports/v3_step250_review_findings.json"
+
+    findings = {
+        "candidate": "qwen-general-lora-v3/step-250",
+        "review_complete": False,
+        "note": (
+            "Partial review findings, not a replacement accuracy score. "
+            "Original evaluation reports remain unchanged."
+        ),
+        "genuine_math_corrections": [
+            {
+                "id": "gsm8k-train-3103",
+                "problem": "Carnival tickets",
+                "original_answer": "3",
+                "candidate_answer": "1",
+                "verified_answer": "1",
+            },
+            {
+                "id": "gsm8k-train-6939",
+                "problem": "TV watching time",
+                "original_answer": "101",
+                "candidate_answer": "112",
+                "verified_answer": "112",
+            },
+            {
+                "id": "gsm8k-train-3844",
+                "problem": "Steak knives",
+                "original_answer": "10",
+                "candidate_answer": "20",
+                "verified_answer": "20",
+            },
+        ],
+        "math_regressions": [
+            {
+                "id": "gsm8k-train-6111",
+                "problem": "Tara's fuel cost",
+                "original_answer": "180",
+                "candidate_answer": "45",
+                "verified_answer": "180",
+                "calculation": "12 * (3 + 3.5 + 4 + 4.5) = 180",
+            },
+            {
+                "id": "gsm8k-train-224",
+                "problem": "Fifth scroll",
+                "original_answer": "20655",
+                "candidate_answer": "20610",
+                "verified_answer": "20655",
+                "calculation": "4080 * 1.5 ** 4 = 20655",
+            },
+        ],
+        "formatting_gains_only": [
+            {
+                "id": "gsm8k-train-5851",
+                "verified_answer": "72",
+                "note": "Both models calculated the correct answer.",
+            },
+            {
+                "id": "gsm8k-train-6354",
+                "verified_answer": "21",
+                "note": "Both models calculated the correct answer.",
+            },
+        ],
+        "correct_answers_missed_by_parser": [
+            {
+                "id": "gsm8k-train-5913",
+                "verified_answer": "6",
+                "models": ["original", "v3_step250"],
+            },
+            {
+                "id": "gsm8k-train-6030",
+                "verified_answer": "135",
+                "models": ["original", "v3_step250"],
+            },
+            {
+                "id": "gsm8k-train-6623",
+                "verified_answer": "30",
+                "models": ["original", "v3_step250"],
+            },
+        ],
+        "incorrect_target": [
+            {
+                "id": "gsm8k-train-1052",
+                "reported_target": "25",
+                "verified_answer": "30",
+                "calculation": (
+                    "John = (79 + 5) / 2 = 42; "
+                    "James = 42 - (35 - 23) = 30."
+                ),
+                "note": "Both model predictions are also wrong.",
+            },
+        ],
+        "remaining_math_errors": [
+            {
+                "id": "gsm8k-train-5765",
+                "problem": "Puppy food",
+                "verified_answer": "25",
+                "calculation": (
+                    "0.5 + 0.25 * 3 * 14 + 0.5 * 2 * 14 = 25"
+                ),
+                "note": "Both models confuse the time periods.",
+            },
+            {
+                "id": "gsm8k-train-1002",
+                "problem": "Carmen, Jethro and Patricia",
+                "verified_answer": "113",
+                "calculation": "60 / 3 + (2 * 20 - 7) + 60 = 113",
+                "note": "Both models answer 127.",
+            },
+            {
+                "id": "gsm8k-train-116",
+                "problem": "Valerie's stamps",
+                "verified_answer": "21",
+                "calculation": "3 + 1 + 2 + 5 + 10 = 21",
+                "note": "Both models give incorrect totals.",
+            },
+        ],
+    }
+
+    # Create once; preserve an existing review.
+    with output.open("x", encoding="utf-8") as file:
+        json.dump(findings, file, indent=2, ensure_ascii=False)
+
+    print("Saved:", output)
+    print("Original reports preserved.")
+    print("This is a partial review, not a final accuracy score.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,415 @@
+{
+  "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+  "split": "validation",
+  "sampling_seed": 42,
+  "device": "cpu",
+  "dtype": "float32",
+  "max_new_tokens": 64,
+  "metric": "Normalized exact match",
+  "system_prompt": "Answer the science question using the passage. Return only the short answer, without an explanation.",
+  "correct": 0,
+  "total": 50,
+  "accuracy": 0.0,
+  "predictions": [
+    {
+      "id": "sciq-validation-843",
+      "subject": "science",
+      "question": "What do we call cyclones that form in tropical latitudes?",
+      "target": "hurricanes",
+      "prediction": "Tropical cyclones are cyclones that form in tropical latitudes. They are called tropical cyclones. Therefore, the answer is \\boxed{tropical}.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-736",
+      "subject": "science",
+      "question": "Relative humidity is related to the partial pressure of what in the air?",
+      "target": "water vapor",
+      "prediction": "The relative humidity is related to the partial pressure of water vapor in the air.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-353",
+      "subject": "science",
+      "question": "A change in species over time is known as?",
+      "target": "evolution",
+      "prediction": "To determine the correct answer to the question, we need to understand the meaning of \"change in species over time.\" This statement refers to the process by which species change and evolve over a period of time. This change can be due to various factors such as natural selection, genetic recombination, and environmental changes.\n\nThe term",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-77",
+      "subject": "science",
+      "question": "The top of the saturated rock layer is called what?",
+      "target": "water table",
+      "prediction": "The top of the saturated rock layer is called the water table. This is a real concept in geology, where the water table is the level of the surface of the water in a saturated rock layer. The water table is an important concept in understanding the behavior of soil and rock, and how they respond to changes in",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-447",
+      "subject": "science",
+      "question": "What do humans use to make observations?",
+      "target": "senses",
+      "prediction": "The answer is: humans use sense percepts to make observations. sense percepts refer to the various ways in which humans sense their environment, including sight, hearing, touch,_smell, and味. These percepts allow humans to make observations about the world around them. For example, when you look at a tree",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-997",
+      "subject": "science",
+      "question": "Almost all earthquakes occur at which place?",
+      "target": "plate boundaries",
+      "prediction": "almost all earthquakes occur at plate boundaries. almost all earthquakes occur at plate boundaries. almost all earthquakes occur at plate boundaries. almost all earthquakes occur at plate boundaries. almost all earthquakes occur at plate boundaries. almost all earthquakes occur at plate boundaries. almost all earthquakes occur at plate boundaries. almost all earthquakes occur at plate boundaries.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-275",
+      "subject": "science",
+      "question": "Where is the youngest seafloor located?",
+      "target": "at the ridge",
+      "prediction": "The youngest seafloor is located at the hill.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-74",
+      "subject": "science",
+      "question": "How can one dimensional vectors be added?",
+      "target": "arithmetically",
+      "prediction": "To add one-dimensional vectors arithmetically, follow these steps:\n\n1. Identify the components of each vector. In one dimension, a vector is represented by a single number, which can be positive or negative, depending on its direction. Let's call the components of the first vector \\(a\\) and the components of",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-308",
+      "subject": "science",
+      "question": "Nitrogen & sulfur oxide combine with rain to form what?",
+      "target": "acid rain",
+      "prediction": "ACOBD\n```\n\nThe final answer is: \\boxed{ACOBD}",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-128",
+      "subject": "science",
+      "question": "Most air pollutants can be traced to what source ?",
+      "target": "fossil fuels",
+      "prediction": "Most air pollutants can be traced to the burning of old,worn out, and non-renewable fuel sources.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-172",
+      "subject": "science",
+      "question": "Name the missing type of light: ultraviolet, infrared, ___________.",
+      "target": "visible",
+      "prediction": "U clothing\n```\n\nThe missing type of light is \\boxed{ultr red}.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-766",
+      "subject": "science",
+      "question": "What type of covalent bond is a covalent bond in which the bonding electrons are shared equally between the two atoms?",
+      "target": "nonpolar",
+      "prediction": "A nonpolar covalent bond is a covalent bond in which the bonding electrons are shared equally between the two atoms. In a nonpolar covalent bond, the distribution of electrical charge is balanced between the two atoms. Therefore, the answer is \\boxed{nonpolar covalent}.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-767",
+      "subject": "science",
+      "question": "What forms a barrier between the cytoplasm and the environment outside the cell?",
+      "target": "the plasma membrane",
+      "prediction": "The answer is the cytoplasm itself. The cytoplasm is the jelly-like substance that fills the interior of a eukaryotic cell. It is composed of various sub cell components such as DNA,�尔 count, and various proteins. The cytoplasm is smaller than the cell and is not as tall",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-547",
+      "subject": "science",
+      "question": "A source of what is needed to disturb matter and start a mechanical wave?",
+      "target": "energy",
+      "prediction": "The source of energy needed to Distort matter and start a mechanical wave is a source of energy.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-2",
+      "subject": "science",
+      "question": "A frameshift mutation is a deletion or insertion of one or more of what that changes the reading frame of the base sequence?",
+      "target": "nucleotides",
+      "prediction": "The bases in RNA are the building blocks of the DNA sequence. A framesincorrect mutation is a deletion or insertion of one or more of these bases, which can change the reading frame of the base sequence. This means that the sequence of bases will be interpreted differently, resulting in a different sequence of bases being written on the",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-750",
+      "subject": "science",
+      "question": "Larger molecules can have many, many of what that serve to keep the molecule together?",
+      "target": "bonds",
+      "prediction": "The answer to the question is \"bonds.\"",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-209",
+      "subject": "science",
+      "question": "What system do trees need to transport nutrients?",
+      "target": "vascular",
+      "prediction": "The trees need an inferable system to transport nutrients.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-628",
+      "subject": "science",
+      "question": "Each hemisphere of the cerebrum consists of four parts, called what?",
+      "target": "lobes",
+      "prediction": "The answer to the question is: Each hemisphere of the mind consists of four parts, called lles.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-432",
+      "subject": "science",
+      "question": "What is it called when the vesicle and target membrane fuse?",
+      "target": "vesicle fusion",
+      "prediction": "The process of vertices between a cell and its target is called \"kiss-and-run fusion\". This process allows the cell to release its contents to the outside of the cell. The vertices between the cell and its target are formed in the presynnersial membrane, and the cell can only be reformulated after the release",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-343",
+      "subject": "science",
+      "question": "An equipotential line is a line along which the electric potential is wht?",
+      "target": "constant",
+      "prediction": "An equipotential line is a line along which the electric potential is constant. Therefore, the answer is:\n\n\\boxed{constant}",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-801",
+      "subject": "science",
+      "question": "What kind of volcano has a very wide base and is named because it looks like something a warrior would use?",
+      "target": "shield volcano",
+      "prediction": "The kind of volcano that has a very wide base and looks like something a warrior would use is a stratovolcanic arc. This type of volcanoes is named because it looks like a long, flat arc that a warrior might use as a filter or to store water. The Mauna Kea Volcanoes",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-962",
+      "subject": "science",
+      "question": "Fires, mainly caused by what, are a natural disturbance in temperate grasslands?",
+      "target": "lightning",
+      "prediction": "Mistakes may occur during the translation process, so please verify the accuracy of the translation.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-996",
+      "subject": "science",
+      "question": "What sport involves people quickly finding destinations using polar coordinates?",
+      "target": "orienteering",
+      "prediction": "The sport that involves people quickly finding destinations using polar coordinates is orienteering.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-302",
+      "subject": "science",
+      "question": "Characteristics of an organism are passed from one generation to the next through what?",
+      "target": "genes",
+      "prediction": "The characteristics of an organism are passed from one generation to the next through their genes. This is a fundamental concept in biology, specifically in the study of heredity. genes are the units of heredity, and they determine the characteristics that an organism具有. These characteristics can be physical, such as shape, size",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-649",
+      "subject": "science",
+      "question": "Invertebrate chordates use what to filter food out of water?",
+      "target": "gills",
+      "prediction": "Inigible.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-435",
+      "subject": "science",
+      "question": "A carbon atom with 6 protons and 8 neutrons is more specifically known as?",
+      "target": "carbon 14",
+      "prediction": "The carbon atom with 6 protons and 8 neutrons is known as carbon-14. The mass number of an atom is the sum of its protons and neutrons. In this case, the mass number is 14 (6 protons + 8 neutrons). The term \"14",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-233",
+      "subject": "science",
+      "question": "What is the term for the moles of solute divided by the kilograms of solvent?",
+      "target": "molality",
+      "prediction": "The term for the moles of solute divided by the kilograms of solver is molality.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-773",
+      "subject": "science",
+      "question": "What is the maximum horizontal distance traveled by a projectile?",
+      "target": "range",
+      "prediction": "The maximum horizontal distance traveled by a projectile is called the range. The range launched at an angle can be calculated using the formula:\n\n\\[ R = \\frac{v_0^2 \\sin(2\\theta)}{g} \\]\n\nwhere \\( v_0 \\) is the initial velocity, \\( \\theta",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-690",
+      "subject": "science",
+      "question": "What does a glacier leave behind when it retreats?",
+      "target": "bare rock",
+      "prediction": "When aslanting, or slanted, or slanted, or slanting, or slanting, or slanting, or slanting, or slanting, or slanting, or slanting, or slanting, or slanting, or slanting,",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-527",
+      "subject": "science",
+      "question": "Ultraviolet light has higher frequencies and shorter wavelengths than visible light, which means it has more what?",
+      "target": "energy",
+      "prediction": "U clothing\n```\n\nThe final answer is: \\boxed{energy}",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-94",
+      "subject": "science",
+      "question": "What is the division of the cytoplasm in eukaryotic cells?",
+      "target": "cytokinesis",
+      "prediction": "The division of the cytoplasm in eukaryotic cells is called cytokinesis. It is a process that occurs in eukaryotic cells, similar to that of prokaryotic cells, where the cytoplasm is divided resulting in two genetically identical daughter cells.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-714",
+      "subject": "science",
+      "question": "The production and transport of gametes is performed by what type of organs?",
+      "target": "reproductive",
+      "prediction": "The production and transport of gametes is performed by the testes in males and the testes and the�ms in females. The correct answer is \\boxed{\\text{testes}}.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-705",
+      "subject": "science",
+      "question": "Proteins are organic compounds made up of what type of acids?",
+      "target": "amino",
+      "prediction": "The passage states that proteins are organic compounds made up of amino acids. Therefore, the answer to the question is \"a Amyino acid\".",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-480",
+      "subject": "science",
+      "question": "What two elements do ribosome consist of?",
+      "target": "rrna and proteins",
+      "prediction": "The ribosome consists of r语言 and proteins. It reads the sequence of codons in expression.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-133",
+      "subject": "science",
+      "question": "What science studies chemical processes that are found in living things?",
+      "target": "biochemistry",
+      "prediction": "The science that studies chemical processes found in living things is called biochemistry.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-816",
+      "subject": "science",
+      "question": "At what temperatures do crystals formed by covalent molecular solids melt at?",
+      "target": "low",
+      "prediction": "The question asks for the temperatures at which crystals formed by covalent molecular solids melt. According to the passage, covalent molecular solids tend to form soft crystals that melt at rather low temperatures and evaporate relatively easily. The specific temperatures at which these phase transitions occur can vary depending on the type of covalent",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-387",
+      "subject": "science",
+      "question": "What do inherited immunodeficiencies arise from?",
+      "target": "gene mutations",
+      "prediction": "cd\n1. **Identify the key information from the passage:**\n   - The immune system is complex.\n   - It involves many pathways and cell types.\n   - It can go wrong in various ways.\n   - Inequality\\[+][+][+][+][+][+][+][+][",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-924",
+      "subject": "science",
+      "question": "Reduction often involves the gain of hydrogen, the loss of oxygen, or the gain of what?",
+      "target": "electrons",
+      "prediction": "To answer the science question using the given passage, we need to identify the term that fits the pattern of reduction described in the passage. The passage states that reduction often involves the gain of hydrogen, the loss of oxygen, or the gain of electrons. We need to determine what is being gained in the context of reduction.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-71",
+      "subject": "science",
+      "question": "If you examine eyeglasses for nearsighted people, you will find the lenses are thinnest in the center and of what shape?",
+      "target": "concave",
+      "prediction": "The lenses are thinnest in the center and are diverging (or concave). This is because nearsighted people require converging power to see objects that are close to them, and eyeglasses are designed to provide this converging power. Diverging lenses, or concave lenses, are used to",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-136",
+      "subject": "science",
+      "question": "An environment reaches its carrying capacity when the number of individual births in it equal the number of what else?",
+      "target": "deaths",
+      "prediction": "To determine the answer to the question, we need to understand the concept of carrying capacity in an environment. Carrying capacity refers to the maximum number of individuals of a particular species that an environment can sustain indefinitely, given the food, habitat, water, and other necessities available in the environment.\n\nThe key point in the passage",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-549",
+      "subject": "science",
+      "question": "Color blindness, hemophilia and muscular dystrophy are three x-linked what?",
+      "target": "phenotypes",
+      "prediction": "The correct answer is: x linkages.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-340",
+      "subject": "science",
+      "question": "During which process does carbon dioxide exit the cells, enter the bloodstream, travel back to the lungs, and get expired out of the body?",
+      "target": "exhalation",
+      "prediction": "The process in which carbon dioxide exits the cells, enters the body, travels back to the lungs, and gets expired out of the body is called exhalation. During exhalation, the carbon dioxide is released from the cells and travels through the exhalation system to the alveoli in the lung. At",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-149",
+      "subject": "science",
+      "question": "What two types of organism make up a lichen?",
+      "target": "fungus and bacteria",
+      "prediction": "The two types of organisms that make up a l�us are a fungus and a bacterium or an alga.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-202",
+      "subject": "science",
+      "question": "Some birds, such as gulls and terns and other waterfowl have what type of feet used for swimming or floating?",
+      "target": "webbed",
+      "prediction": "The type of feet used for swimming or floating for birds such as gulls and terns and other waterfowl is webbed feet. These feet are adapted for swimming and floating in water. The correct answer is \\boxed{ webbed}.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-589",
+      "subject": "science",
+      "question": "What kingdom of organisms is characterized by having sensory organs, movement, and internal digestion?",
+      "target": "animals",
+      "prediction": "The kingdom of organisms characterized by having senseorgans, movement, and internal division of�al ( internal) is the kingdom of chordates. Chordates are a taxon of animals that includes all animals that have a chord, which is a structure that allows for the transport of information from the back of the body",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-880",
+      "subject": "science",
+      "question": "What combine the spinal sensory and motor components with a sensory input that directly generates a motor response?",
+      "target": "reflexes",
+      "prediction": "The question asks for a concept that combines the spatial sense (sensory) and the motor sense ( motor response). The passage provides several examples of such reflexes, including the stretch reflex and the knee-jerk reflex. The answer should be a general description of such reflexes.\n\nThe answer is: \\boxed{\\",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-579",
+      "subject": "science",
+      "question": "This is the study of evolutionary history of groups of related organisms?",
+      "target": "phylogeny",
+      "prediction": "The study of the evolutionary history of groups of related organisms is known as taxonometry. This field of study involves the classification and analysis of species based on their genetic and other characteristics, which helps in understanding their historical relationships and common Anceries. The term you are looking for is \"taxonometry\".",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-251",
+      "subject": "science",
+      "question": "Where do physical laws govern energy flow and chemical cycling?",
+      "target": "ecosystems",
+      "prediction": "The physical laws that govern energy flow and chemical cycling inecospheres are found in nature. These laws are fundamental principles that describe how matter and energy are exchanged and transformed within and between different systems. They are essential for understanding and managing the complex interactions within and between different systems in the natural world.",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-646",
+      "subject": "science",
+      "question": "What do you call geographical areas that contain high numbers of endemic species?",
+      "target": "hotspots",
+      "prediction": "Geographical areas that contain high numbers of endoph theoretically, hot spots are geographical areas that contain high numbers of endoph theoretically, hot spots are geographical areas that contain high numbers of edge species. edge species are edge species are species that are found only in a small area or only in a few locations on a given planet",
+      "correct": false
+    },
+    {
+      "id": "sciq-validation-20",
+      "subject": "science",
+      "question": "What is the most common sti in the u.s.?",
+      "target": "chlamydia",
+      "prediction": "The most common STI in the U. S. is chlamydia.",
+      "correct": false
+    }
+  ]
+}

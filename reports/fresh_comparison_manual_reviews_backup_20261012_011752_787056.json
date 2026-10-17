@@ -1,0 +1,1902 @@
+{
+  "Original|sciq-validation-232": {
+    "model": "Original",
+    "id": "sciq-validation-232",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "fd3b486495491826557903692377ec9f6916cfafb1eaaf808954e902470ed327",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-232": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-232",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "fd3b486495491826557903692377ec9f6916cfafb1eaaf808954e902470ed327",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-599": {
+    "model": "Original",
+    "id": "sciq-validation-599",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "ce15bf6adaca50591ca75b5aaeaea62329743bbf6aa3ad734d09dc9a97c85b09",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-599": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-599",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "091ec8e35ba6fbbb6812ff7ee1d0ef8eca9436f1becb85d45377361d0d81c2e5",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-185": {
+    "model": "Original",
+    "id": "sciq-validation-185",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "98f9b70cdc8689f1451968ed984b186f9acd19fff629eca4913f8739a1e69c55",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-185": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-185",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "9a685a216fdd76319987a3bd10a737ee7089562c73caa3530bb9043a287cb4b0",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-625": {
+    "model": "Original",
+    "id": "sciq-validation-625",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "ffcaffcb32d4c955a5403ea55dad5f590d38874f23dfee3dff68f31d7127ffbe",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-625": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-625",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "00588ea3b70564d681e507e1b4dddd4e27db2698fd11b78aa7d97e2dabf763e3",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-416": {
+    "model": "Original",
+    "id": "sciq-validation-416",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "5843da3fbf9af3a93112880dfcb585a014e8c97672888a47b05e04df35b78e40",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-416": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-416",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "5843da3fbf9af3a93112880dfcb585a014e8c97672888a47b05e04df35b78e40",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-485": {
+    "model": "Original",
+    "id": "sciq-validation-485",
+    "subject": "science",
+    "status": "correct",
+    "note": "'Index' identifies index fossils in question context.",
+    "fingerprint": "d81903caf2a392472a6f20fe81e091a3a86370c5e9ffaa6785bdced49a22e96c",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-485": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-485",
+    "subject": "science",
+    "status": "correct",
+    "note": "'Index' identifies index fossils in question context.",
+    "fingerprint": "0dbf1865d467878b9db16495fd60f85c1f306ebde17f69f4c5410b8f8126aeeb",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-532": {
+    "model": "Original",
+    "id": "sciq-validation-532",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "9b4c3ce96ab152ee86d79e6b52f224c2093ef43dd09808989bc32b72f60ce7fe",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-532": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-532",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "227c197b28d6bd0ab224438f29e3d5cd6c18dfd41d9e8d267378ad7c8e6360ca",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-994": {
+    "model": "Original",
+    "id": "sciq-validation-994",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "e54b83b8eadb4238c8e5933901b3486a98eda1b45839d9d590344e6ff9c9059e",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-994": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-994",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "f7ee22fd35c98c1a9756c5eb7b556432128fd84f73a107e0c5a604e78794759a",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-229": {
+    "model": "Original",
+    "id": "sciq-validation-229",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "2e286cd425084ab3edb5038e65feac04c7ba450ae6e6451b184a0b6eecc2b645",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-229": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-229",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "312ff6326b23f6563119983a79e4f649ae52d711b107a249335629b123b7a025",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-587": {
+    "model": "Original",
+    "id": "sciq-validation-587",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "3e672cae8fb65ca33932ce935c81c6103b65ca5ed5182b9662da0690174c74e4",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-587": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-587",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "7f44f768a4cdac7fee110aba433c870d65cb63b9c744bd10b083233a8f4104da",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-688": {
+    "model": "Original",
+    "id": "sciq-validation-688",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "ee34f019cc6b2c3495366845edc477fa764a7a0b582394448ee66653055e994e",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-688": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-688",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "ab7eafa79eea2a331fe0755d0fa025cafe45dedbd6b81caea55d073180b543ac",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-772": {
+    "model": "Original",
+    "id": "sciq-validation-772",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "ded1ee9a72b13d759f9965e644c49a08b9698855d5abaa5832095b11f18fd2f0",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-772": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-772",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "fdd4510cc39bd92567cc97c4642c921e933b358217bf330cd87d58345cf74cf4",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-685": {
+    "model": "Original",
+    "id": "sciq-validation-685",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "4a58940dbd26b2ab603278adc6b4e335c48cf9f295e4a03557aa559d68204bda",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-685": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-685",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "8ec610e8b2501e0c3b265b8b194b3a98833580bd236af6be2db0562a7047bac8",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-559": {
+    "model": "Original",
+    "id": "sciq-validation-559",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "c3f399fc76fa935c3d9fdbd9e40ba07e0291720a25d6dffc9da37245878d4d50",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-559": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-559",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "a0ebcfcfa801b7089f04a5e38e66b6fb71e71017c0dcec35c9dfefcac9908884",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-392": {
+    "model": "Original",
+    "id": "sciq-validation-392",
+    "subject": "science",
+    "status": "correct",
+    "note": "Artificial selection is supported; the target is misspelled.",
+    "fingerprint": "ed652a16a51ce7544e4e35e9c179cb21e182a518cdbb8c8076f1821c1ef06eb8",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-392": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-392",
+    "subject": "science",
+    "status": "correct",
+    "note": "Artificial selection is supported; the target is misspelled.",
+    "fingerprint": "dabc02f40d868b4ad00a83cc4a927645ce48d6a490d13d0f46e480ebcfe7c4be",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-120": {
+    "model": "Original",
+    "id": "sciq-validation-120",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "dab0e94e22022f1f0b5642d21116916b705e08f3c88ba04d9ccf0884e20b0bbe",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-120": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-120",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "31e064f833f114ea8b5b8ae160fe6d418f3144ab0729ea099dbf7129cc36e0a6",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-297": {
+    "model": "Original",
+    "id": "sciq-validation-297",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "b6dd148660d83397aca01e7f0fa326e602a800c28566008d2a28749e1a48d60d",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-297": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-297",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "9132be607ce04e8466d16c5c0ec8226f590438049483621f62dc1d1a05e82ead",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-89": {
+    "model": "Original",
+    "id": "sciq-validation-89",
+    "subject": "science",
+    "status": "ambiguous",
+    "note": "Potassium matches the target, but the passage does not provide the answer.",
+    "fingerprint": "4a804133ca60120bdbe9a262ca6ac2cc3c725d29a99d022c9398983471c14fa1",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-89": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-89",
+    "subject": "science",
+    "status": "ambiguous",
+    "note": "Potassium matches the target, but the passage does not provide the answer.",
+    "fingerprint": "a50d45b8ec18bb6b07ba117bd1d4a9df13ceb3c63b977e289f02595ebe549741",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-169": {
+    "model": "Original",
+    "id": "sciq-validation-169",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "24a02167cbd32852884a944119375280f68a7b92396e1773d773bfbd57b11bd1",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-169": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-169",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "7b85e06327a73b69b61d92725d2ae654c064ec3e4df2a3756811d7350b47c829",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-740": {
+    "model": "Original",
+    "id": "sciq-validation-740",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "b2ae73a9a7809bfa4d43a1a67d6b60cad2d1416faa926c935062cf97aaa1f8ae",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-740": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-740",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "375ac2af6bd1826958ffe3b4f0ecb063af800abeb9c799a5347804bbba132bf7",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-554": {
+    "model": "Original",
+    "id": "sciq-validation-554",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "eee049b0d201efe86bb92c38bd96b0f76f7c5d119c488e4c8aaba9c566c9eedc",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-554": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-554",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "2c056e953389985b00e280bc205cbae2e22c593a251bc0beed024353481eec87",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-249": {
+    "model": "Original",
+    "id": "sciq-validation-249",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "8b417b83b46b725ab7ca7d4309dec81f40d05c31c61a7be3736c8813eb285e9e",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-52": {
+    "model": "Original",
+    "id": "sciq-validation-52",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "1dcd3970455df02aca5f693bb8dc8dccac3577597a75639998ecae2f0daaea3f",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-845": {
+    "model": "Original",
+    "id": "sciq-validation-845",
+    "subject": "science",
+    "status": "correct",
+    "note": "Oil, coal and natural gas are the fossil fuels explicitly identified in the passage; accepted as examples.",
+    "fingerprint": "8c3c1430d269ac70e36c2535843dcd374d3b22ad7a1aec008488f285b7f9e154",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-415": {
+    "model": "Original",
+    "id": "sciq-validation-415",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "3830feb6a3c788ff222ebf1601fdc5fbfba64051a02a49e4add061d439b52256",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-859": {
+    "model": "Original",
+    "id": "sciq-validation-859",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "41314e7dc26d3dfa1fcaea138f10ac4493596861c277c93a58e0eaede2729412",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-998": {
+    "model": "Original",
+    "id": "sciq-validation-998",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "8ed894d1806f24e2c1634d22ac7da725c2e06da7e7ce81cfd7dab8b9fe04961a",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-246": {
+    "model": "Original",
+    "id": "sciq-validation-246",
+    "subject": "science",
+    "status": "ambiguous",
+    "note": "The protein question has an unrelated passage about acidic salt. The target conflicts with the passage-only instruction.",
+    "fingerprint": "b3788ab77e08354cd4cfe24b412e1f361e98744b68fdcfd3895af5d552c19e7c",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-802": {
+    "model": "Original",
+    "id": "sciq-validation-802",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "2f668b60294695f79e5edcf652dc78835ee77f22e5262820f2ef404a62c4b197",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-618": {
+    "model": "Original",
+    "id": "sciq-validation-618",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "4b28e8f2a4d9818eb5fddb5ca6e20c589a3c389c2d6874d1494083bf80b1cefc",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-783": {
+    "model": "Original",
+    "id": "sciq-validation-783",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "b7bda6d631a7c4f5b13afc15f79d78a8f273e99a9c5673d775edad8f5d79f86d",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-488": {
+    "model": "Original",
+    "id": "sciq-validation-488",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "ead957022fe5ce0255d0a98eb5a5edba915e045344e053c194eae106a471d550",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-908": {
+    "model": "Original",
+    "id": "sciq-validation-908",
+    "subject": "science",
+    "status": "correct",
+    "note": "Singular 'compound machine' is a valid answer.",
+    "fingerprint": "8b1d935cf75967bf2b6239c59b534350d5fdc948e0d3a852cece95d25e703b6d",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-674": {
+    "model": "Original",
+    "id": "sciq-validation-674",
+    "subject": "science",
+    "status": "correct",
+    "note": "SCID is explicitly identified in the passage.",
+    "fingerprint": "6b736295d25febd026952c879b810a27b8c5480b179c74798b01337200b3a078",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-7": {
+    "model": "Original",
+    "id": "sciq-validation-7",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "586a77ae81001a1aca458951430e80353ece87df57616333a01b1c950ead2894",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-764": {
+    "model": "Original",
+    "id": "sciq-validation-764",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "a92e39ea12a34a62c13b91a67034f7051ad533963334c95acb3d5ab1d1c802b8",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-427": {
+    "model": "Original",
+    "id": "sciq-validation-427",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "061271bfc5b8eed20d7d6c6e97a674477370bde19256326816ffb6ef9d0f7a62",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-231": {
+    "model": "Original",
+    "id": "sciq-validation-231",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "17f02b2c9371db166afb4ec7c8a4ab971ea77cdc362c8b81dd14517baa776e34",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-479": {
+    "model": "Original",
+    "id": "sciq-validation-479",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "7ef85cd78d25dbb5daa45a6b5400da333a4cb5e33c899ee2884655b292cb4aee",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-473": {
+    "model": "Original",
+    "id": "sciq-validation-473",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "323fd3335fee4c3f95dec3ffad8932d7c083b57c9949b0f19d4cd54a9c90ea49",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-979": {
+    "model": "Original",
+    "id": "sciq-validation-979",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "af5e88f4e0830b63d0529fe53d26ef5f5f2b37d37f3cf30d3912ac32c8decf75",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-91": {
+    "model": "Original",
+    "id": "sciq-validation-91",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "b31bd1a8c80547048902f8ffa05b671ebf62ecec8abf6174ade0d17b3bfcd28e",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-869": {
+    "model": "Original",
+    "id": "sciq-validation-869",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "051063f0b77364fd7dfd27440422a4027a2bd87cd39874714165afae692c10ce",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-904": {
+    "model": "Original",
+    "id": "sciq-validation-904",
+    "subject": "science",
+    "status": "correct",
+    "note": "Insufficient information follows the passage-only instruction: the ear passage does not define energy.",
+    "fingerprint": "d104e1a0c788a6b15686879e898da3ad9b623a7cea00f1afca8a6933913b72ae",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-756": {
+    "model": "Original",
+    "id": "sciq-validation-756",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "be249826b4a539aa2d3069ba3af7fd6e6ff4fecb09a42e0ea8eb6cd742fcfec7",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-119": {
+    "model": "Original",
+    "id": "sciq-validation-119",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "4ac818fb46316a7f27ee2b695987684e384cf37466c2a1a6268647923930199d",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-610": {
+    "model": "Original",
+    "id": "sciq-validation-610",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "4c644536530583c700b00f58ae2ee00ece1c11b043cb67844f22b19098093330",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-614": {
+    "model": "Original",
+    "id": "sciq-validation-614",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "ddaca7280e968c11069c88a14d419900540d4a5ebc26c30619b083a7a99f4742",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-743": {
+    "model": "Original",
+    "id": "sciq-validation-743",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "05855e0450c3fe3678dec73b9a65288625e47e024fcc1945c7e6f4fc581fe03d",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|sciq-validation-968": {
+    "model": "Original",
+    "id": "sciq-validation-968",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "444f9eded5af6070c726d9d9611ebefb417d4bd8f8446dada838ad04645e5589",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-249": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-249",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "8b417b83b46b725ab7ca7d4309dec81f40d05c31c61a7be3736c8813eb285e9e",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-52": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-52",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "cf2c4b7015d225214903dfdffc86955cca4bea521d4e61359203e7347f4d1c33",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-845": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-845",
+    "subject": "science",
+    "status": "correct",
+    "note": "Oil, coal and natural gas are the fossil fuels explicitly identified in the passage; accepted as examples.",
+    "fingerprint": "cadcaa77a602b89f4f90579a4b817c79a57a2f076849e58492376036ed512eb6",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-415": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-415",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "fbe37751c8333a91db6f6d904c6e0f4fc0acc73f1854a57fbbfabe15f401d9d3",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-859": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-859",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "41314e7dc26d3dfa1fcaea138f10ac4493596861c277c93a58e0eaede2729412",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-998": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-998",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "8ed894d1806f24e2c1634d22ac7da725c2e06da7e7ce81cfd7dab8b9fe04961a",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-246": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-246",
+    "subject": "science",
+    "status": "ambiguous",
+    "note": "The protein question has an unrelated passage about acidic salt. The target conflicts with the passage-only instruction.",
+    "fingerprint": "b3788ab77e08354cd4cfe24b412e1f361e98744b68fdcfd3895af5d552c19e7c",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-802": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-802",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "2f668b60294695f79e5edcf652dc78835ee77f22e5262820f2ef404a62c4b197",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-618": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-618",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "4b28e8f2a4d9818eb5fddb5ca6e20c589a3c389c2d6874d1494083bf80b1cefc",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-783": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-783",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "a605b3f3bed9e0906cc1ddc3e852147387ebbd3586bac1417e2ee545a4931564",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-488": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-488",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "e25b7bb16334f6b89902d6cdf4239299db13cbda0f91cc3fa1a17577bcecb851",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-908": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-908",
+    "subject": "science",
+    "status": "correct",
+    "note": "Singular 'compound machine' is a valid answer.",
+    "fingerprint": "cd615edfcbb05787a921a4c53d3564a5665dbc8ae9f705da7c1011d5b8c0fcbe",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-674": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-674",
+    "subject": "science",
+    "status": "correct",
+    "note": "SCID is explicitly identified in the passage.",
+    "fingerprint": "95cc0df634fb1ecff7c848810f1291e0afc20a8b525c6d2145e16bb5022c4f93",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-7": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-7",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "586a77ae81001a1aca458951430e80353ece87df57616333a01b1c950ead2894",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-764": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-764",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "134298e12bc692a877f6f2a793ca3d4a2ce2bbeb3ab3d6feed1723f3ac68fe09",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-427": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-427",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "061271bfc5b8eed20d7d6c6e97a674477370bde19256326816ffb6ef9d0f7a62",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-231": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-231",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "333d1d840f48d3e627caa9b431e794c5d2deb3b6786c04d9211cb708f877598c",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-479": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-479",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "7ef85cd78d25dbb5daa45a6b5400da333a4cb5e33c899ee2884655b292cb4aee",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-473": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-473",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "323fd3335fee4c3f95dec3ffad8932d7c083b57c9949b0f19d4cd54a9c90ea49",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-979": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-979",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "af5e88f4e0830b63d0529fe53d26ef5f5f2b37d37f3cf30d3912ac32c8decf75",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-91": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-91",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "b31bd1a8c80547048902f8ffa05b671ebf62ecec8abf6174ade0d17b3bfcd28e",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-869": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-869",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "051063f0b77364fd7dfd27440422a4027a2bd87cd39874714165afae692c10ce",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-904": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-904",
+    "subject": "science",
+    "status": "correct",
+    "note": "Insufficient information follows the passage-only instruction: the ear passage does not define energy.",
+    "fingerprint": "e62bfacb4a86116425af721a12dfa45d7e01d8fc0012262c51bfca22910bea31",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-756": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-756",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "9274bb6a86f994cff25eca39a15dd9de3a7bc3071cb38ab1e87b2bfff9b973d2",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-119": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-119",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "4ac818fb46316a7f27ee2b695987684e384cf37466c2a1a6268647923930199d",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-610": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-610",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "4c644536530583c700b00f58ae2ee00ece1c11b043cb67844f22b19098093330",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-614": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-614",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "8e1484a2574197fb9fd0cf799436c8e58dee4c2f9dc75bc57cd198fe3e9f01a0",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-743": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-743",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "a6b28573cc8fe4d248024dde60121c6acfb4e8eb60651f9e9294432e9efe20b5",
+    "review_source": "Assistant batch passage review"
+  },
+  "V3 step-250|sciq-validation-968": {
+    "model": "V3 step-250",
+    "id": "sciq-validation-968",
+    "subject": "science",
+    "status": "correct",
+    "note": "The answer is supported by the supplied passage; equivalent wording is accepted.",
+    "fingerprint": "444f9eded5af6070c726d9d9611ebefb417d4bd8f8446dada838ad04645e5589",
+    "review_source": "Assistant batch passage review"
+  },
+  "Original|gsm8k-train-4059": {
+    "model": "Original",
+    "id": "gsm8k-train-4059",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "984e776f567c458daeeda1855b573fec59df6a78aa741cc3900f50af1ca85d68",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-1002": {
+    "model": "Original",
+    "id": "gsm8k-train-1002",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Carmen has 40 - 7 = 33. Total = 33 + 20 + 60 = 113.",
+    "fingerprint": "f2ad268fa8c47ddc993477f7eb9ab7859262d87f605360545c4fd779e38c1e85",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-1660": {
+    "model": "Original",
+    "id": "gsm8k-train-1660",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "451d5da3052c99182c79841c7e5ec8d31de1a1fae82bda44439841e38b1ab91e",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-5913": {
+    "model": "Original",
+    "id": "gsm8k-train-5913",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "599478891969d6971ea748955476b5b1aac6d0a005e8f0f0fd7cce6f536b6186",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3103": {
+    "model": "Original",
+    "id": "gsm8k-train-3103",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "The model confuses dollars per game with tickets. (30 / 3 - 5) / 5 = 1 ticket per game.",
+    "fingerprint": "6fce8ae4e6c421f06cd7bde406a6a9b5cda4c1622469f1104af5271d76691c5a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-992": {
+    "model": "Original",
+    "id": "gsm8k-train-992",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "6fc22b0d3fac4b03b49e4655a94116a82342277b90d2c6f5bf38586a5998f12f",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-7010": {
+    "model": "Original",
+    "id": "gsm8k-train-7010",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "f180af19e7d789d166464781963bfca747884a848e8bbfa631f286c85e65fcb1",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-1788": {
+    "model": "Original",
+    "id": "gsm8k-train-1788",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "08bc226ac874f12ffb9db0a0147957d7d5564f7257f53c2285d49d4abdcf2c9e",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3557": {
+    "model": "Original",
+    "id": "gsm8k-train-3557",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Final number matches the target, but the explanation uses <= instead of the stated below-80% threshold and treats n >= 1000 as an upper bound. After 1000 jumps the pool is exactly 80% full.",
+    "fingerprint": "bb1681662b41e54aae6189da6f8ed683f87e34b8b782cd5acdb93798166627e6",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-6111": {
+    "model": "Original",
+    "id": "gsm8k-train-6111",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "645d9aedc9e10b8a09a214e0c5cce56eae7a5b7af572393407f17d2340fd6c63",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-6030": {
+    "model": "Original",
+    "id": "gsm8k-train-6030",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "35e46899f2872d6100815629779279059405cd827f8eccfc8b38af9b15b9473a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3617": {
+    "model": "Original",
+    "id": "gsm8k-train-3617",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "0bf6c02feb729218b48dd0cbda322cadbb61348cc1e6b966f66ecf2ac20250ca",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-107": {
+    "model": "Original",
+    "id": "gsm8k-train-107",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "fd4f839a028cb569cd9f184b201c6df9153ee42ae7b31f9c382a5224603f351a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-5851": {
+    "model": "Original",
+    "id": "gsm8k-train-5851",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "271d34fea2eeca5599af49445eec5d92074db8df3125e0779009115c4de5c1db",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-6354": {
+    "model": "Original",
+    "id": "gsm8k-train-6354",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "4cc0669173ac520a95aeb62e93aecaf7e84ffad0743e8af890224a20b570511a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-281": {
+    "model": "Original",
+    "id": "gsm8k-train-281",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "bf8cd086bbedf47e432746239494a0ef1c0692bbbe1bdf4d5dfb34c60e78a456",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-5807": {
+    "model": "Original",
+    "id": "gsm8k-train-5807",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "e32995a99b1000b11084cd571eff24a301977a9dc4b7d0951c5495e829a16ade",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3881": {
+    "model": "Original",
+    "id": "gsm8k-train-3881",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "92e5bb0f96f4a17cfa79602ea8cd38996ee9befd685faec2bc3d00c3df9c14f4",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3150": {
+    "model": "Original",
+    "id": "gsm8k-train-3150",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "3095da8d9dfbceb2188769f373bccea0a1bc228efceae57563e8a7009b3d95c0",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-6939": {
+    "model": "Original",
+    "id": "gsm8k-train-6939",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "It omits the new season's 22 regular episodes. (9 * 22 + 26) * 0.5 = 112 hours.",
+    "fingerprint": "7fd8f2a816c0e9642b177f70a22a1d8832f2607a7657a2f19d021fa4019e4fb1",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-7224": {
+    "model": "Original",
+    "id": "gsm8k-train-7224",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "ef69423da0a95d8b0f71abf70aee6e8c88b68f235afbaced660abef11d83ba75",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-6623": {
+    "model": "Original",
+    "id": "gsm8k-train-6623",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "e04666ef70b843b9da6d96aa6f4e675bf8791e66e29b0aa56c0c06fbb6a0821d",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-6188": {
+    "model": "Original",
+    "id": "gsm8k-train-6188",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "015166d652dcd445fc42a4a521ee1466c3f1ad4da4233bc947aff278b3e51745",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-4178": {
+    "model": "Original",
+    "id": "gsm8k-train-4178",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "3e9fa56cc9135ffb2bfc7195253bac8ec5ee63e2e155bf2de8b49e254eae3b4c",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-224": {
+    "model": "Original",
+    "id": "gsm8k-train-224",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "d47da637b470c3137515c8d2a2d236b1d7cef1aee2e59f6d781e95e3478c796b",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-2288": {
+    "model": "Original",
+    "id": "gsm8k-train-2288",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "f05a3f53d3008bc7d909af47e6133681b2f33ec3abf310fa9dfc49a04da724ca",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3656": {
+    "model": "Original",
+    "id": "gsm8k-train-3656",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "00940bdf6b0bb9328e42582d3f6f6e830fcbac6950644727026eb0d943c70bc8",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3069": {
+    "model": "Original",
+    "id": "gsm8k-train-3069",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Final answer 30 is correct, but the opening incorrectly says Marianne was 20 years older. The age difference is 12 years.",
+    "fingerprint": "7fbfa10eb798d2dbc3ac9ae2fd4a7f0a92f141ccb28d3ea4da86482e7cf471ad",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-116": {
+    "model": "Original",
+    "id": "gsm8k-train-116",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Required stamps = 3 + 1 + 2 + 5 + 10 = 21. The model incorrectly subtracts stamps.",
+    "fingerprint": "bf1439a795452d01247eeb3e6aea0707f7fcae1be4a69d7387e84dcd1e1486a4",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3594": {
+    "model": "Original",
+    "id": "gsm8k-train-3594",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "a49155e8be9a774d8dbdab8a9754a31aaf74cc74126fe5b19047012e09072d80",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3940": {
+    "model": "Original",
+    "id": "gsm8k-train-3940",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "390 minutes is correct, but the model incorrectly equates it with 6 hours. It equals 6.5 hours.",
+    "fingerprint": "41c4374bd5b141fd55b1435eaf910f28a65f9ab3eba95ce67ad114f4acda1e06",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-2177": {
+    "model": "Original",
+    "id": "gsm8k-train-2177",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "3e5924f503d14617b2b172b75a805ad103b33ec820158e3c8748f0a3e89ffd65",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-4590": {
+    "model": "Original",
+    "id": "gsm8k-train-4590",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "0120dab1de9bf79b33efe793ed5c1b925793c07a9001bd4151bc92a4cb585ad9",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-1277": {
+    "model": "Original",
+    "id": "gsm8k-train-1277",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "fda71bb8884940d88fd284bd08b765bd7eb1c5edb5f5e6b47538b7e66ce524f1",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3844": {
+    "model": "Original",
+    "id": "gsm8k-train-3844",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "It treats 80 dollars as the cost of both sets. Each knife costs (2 * 80) / (2 * 4) = 20 dollars.",
+    "fingerprint": "59ed90ddf5cd2cb7b114880da848d91849ae43fcbde93d66e513258731733176",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-7315": {
+    "model": "Original",
+    "id": "gsm8k-train-7315",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "c1bda76d5397c411222d5c4feb2dc94e69f33d82173d1b6113e6301adc97ce2c",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-2409": {
+    "model": "Original",
+    "id": "gsm8k-train-2409",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "a06aa13ffaf968afbc9539243e1709f2171c215336b7c6ff2af2883818f0a4c1",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-5358": {
+    "model": "Original",
+    "id": "gsm8k-train-5358",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "c434a9a1386e37cae43c20761fda7ed4554dcc6354cc316eab5e7deb481795ec",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-7090": {
+    "model": "Original",
+    "id": "gsm8k-train-7090",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "e274286b6ba444e627e48973d9cdbe1da2019a2db0383c20d33bd2f58bf9f1b5",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-2208": {
+    "model": "Original",
+    "id": "gsm8k-train-2208",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "df287f37449c871dd7e80bdddef399198da2df0c042d11fcf3bbfc6e71646886",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-2035": {
+    "model": "Original",
+    "id": "gsm8k-train-2035",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "dcdc253d55cc59d270c1294f98e045285b7c7c8d8d0f74ba83db86dc278fb621",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-5888": {
+    "model": "Original",
+    "id": "gsm8k-train-5888",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Under the explicitly stated four-week assumption, salary = 5 * 8 * (6 * 4 - 1) = 920. The model ignores the missed workday.",
+    "fingerprint": "963d283a9f3af2b1e34be805eae6761d4f6b0116b9591dd3d865da35b72cb9f9",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-1052": {
+    "model": "Original",
+    "id": "gsm8k-train-1052",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "The target 25 is incorrect. John = (79 + 5) / 2 = 42. James = 42 - (35 - 23) = 30. Both models also answer incorrectly.",
+    "fingerprint": "36f2bab27381c9ddd910bb082629ffdb35165749f5730f38584ce6fdce87828d",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3575": {
+    "model": "Original",
+    "id": "gsm8k-train-3575",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "86a36a4ac9b3fe126daff9af829b3a59f3ff05dbb8e6734c4566e7fb4271e450",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-4192": {
+    "model": "Original",
+    "id": "gsm8k-train-4192",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "07b5569aee9731f9ebed1c446669291edf9b6983d45c72ffe38ef9a920eda32f",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-1906": {
+    "model": "Original",
+    "id": "gsm8k-train-1906",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "22055f4a81b0ffccdfc90b88345f985c37914cf3267982cda365b4100dac10a6",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3894": {
+    "model": "Original",
+    "id": "gsm8k-train-3894",
+    "subject": "mathematics",
+    "status": "ambiguous",
+    "note": "The question does not clearly distinguish fuel consumed from new fuel purchased, given the initial full tank and final refill. Fuel consumed is worth 80 dollars. V3's 200-dollar calculation is unsupported. Exclude this question from the comparison for both models.",
+    "fingerprint": "65ef26308962bf9145914ef68d849ec085095535dbfc23a0d29b4d9d818f1cb8",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-4185": {
+    "model": "Original",
+    "id": "gsm8k-train-4185",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "60d6af5d51c1d208189816cbb98ca8d2a672eae6d0ebe81bdd06f9f6495a462c",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-5765": {
+    "model": "Original",
+    "id": "gsm8k-train-5765",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Using the two stated 14-day periods plus today: 0.25 * 3 * 14 + 0.5 * 2 * 14 + 0.5 = 25. The model uses incorrect time periods.",
+    "fingerprint": "98289167e07ae53c443d166e8a3276f3b8456a6298b73285b1fc15fd4195730f",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "Original|gsm8k-train-3101": {
+    "model": "Original",
+    "id": "gsm8k-train-3101",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "3430c295f42bad38def81b7a212cb251bfb05d71c8c1d0dd8bb3f7d7474c610f",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-4059": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-4059",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "984e776f567c458daeeda1855b573fec59df6a78aa741cc3900f50af1ca85d68",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-1002": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-1002",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Carmen has 40 - 7 = 33. Total = 33 + 20 + 60 = 113.",
+    "fingerprint": "1817ff082c7dd89f68f5a357f829dcd6da01cdad0c03789de899cd37739066f4",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-1660": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-1660",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "967e8bba9cface3449bfa97ea1f1ac4dea0ad3bcc9e7d85c356dec5e2cb80b44",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-5913": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-5913",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "599478891969d6971ea748955476b5b1aac6d0a005e8f0f0fd7cce6f536b6186",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3103": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3103",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "d8477138ec3faf1e4df288f6ed02682d9d624a41bda9ddfe825a5b3e7d82e7cd",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-992": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-992",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "16743cccb1fd8f6c9c2a02cd0795faefac9a68d89005ac68cb7320f066364e6a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-7010": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-7010",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "The ingredient total is 3 + 5 + 73 = 81, not 82. Cost per person = 81 / 3 = 27.",
+    "fingerprint": "1478968d65a3442d212b5ab1095d4ee2ea8bd018cf3b21de083c599165c531df",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-1788": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-1788",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "85c7e6fb4b276393b4e87c433c479b5a02cca4316d99bc3f19cecba62b7ff09a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3557": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3557",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Final number matches the target, but the explanation uses <= instead of the stated below-80% threshold and treats n >= 1000 as an upper bound. After 1000 jumps the pool is exactly 80% full.",
+    "fingerprint": "1a11a395380d8ec18d55a7d0fe2fc1ae4956a4f8257bffeaf2c466e0e0accd92",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-6111": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-6111",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Four full 12-gallon purchases cost 12 * (3 + 3.5 + 4 + 4.5) = 180, not 45.",
+    "fingerprint": "8aeaa03bb97248f59d8f7da771a1774a1630d33c46b46f22187b0ae81f0830fc",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-6030": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-6030",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "daaf45c108e48167c488e20b0913cd647cc504411bd8472c75ed047e2a498d1b",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3617": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3617",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "2fa128c0519da1b54dccb886bdcc64eb89563876729cd714556ae8c0d84c9aa6",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-107": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-107",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "53b94b75cc018d8a3d3109d3496a76958bca5dd3b01ef14f1376c06f746544ff",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-5851": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-5851",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "17ab69b3990bcab7c7acb86238df2f2fc8951cad7a50656a892c37a74869099a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-6354": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-6354",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "f84c11bb8dab7069469ae6927a844f133765c3117054aa4c50bcf00cce2af7d0",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-281": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-281",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "5a2b2259a0ea7f119acae90e594c30d776f611c166f4bc3f0388d627831b5462",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-5807": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-5807",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "6c28e1bca6d79de6a75b727357dcd56fff814bb40863d0770618faedcafd667e",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3881": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3881",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "1fc01d560622abec6b00985b3e85f9f427d759c7089e3e63014aa86c4216fc89",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3150": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3150",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "b27d5559e146ea426c124d82f22e5bcdc8fb4adb709a782b61501aa5c1b10b1b",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-6939": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-6939",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "e3be95e18e5cf374c3207fa010b378d47bb7d2424853144947dac7553c96b727",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-7224": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-7224",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "43bb2f3a355707c901ad0a8496ed7f18a86ff6c12748a1bd9caf5aaa3e805c8b",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-6623": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-6623",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "50aaeab798b56313ef981ccbe868f53fae566328689e94a6629f0f8636074762",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-6188": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-6188",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "015166d652dcd445fc42a4a521ee1466c3f1ad4da4233bc947aff278b3e51745",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-4178": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-4178",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "ccb97c42841f0aa32d0a20c8063fcc9dd6a02bafc125ea816fa566bc9654fcba",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-224": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-224",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "The scroll ages multiply by 1.5 each time. 4080 * 1.5 ** 4 = 20655. The model makes arithmetic errors.",
+    "fingerprint": "f72e6e99d8b7cde1c91c7331c717e449fcc4038a56643251ec7a1f1dd9d29d47",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-2288": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-2288",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "f0ca0af2fe8a60b1493ac542ab7f0b76f9e231860873fc0d65dfecad99ae4db4",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3656": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3656",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "00940bdf6b0bb9328e42582d3f6f6e830fcbac6950644727026eb0d943c70bc8",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3069": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3069",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "a29badb63d023144ec6b909b56521d6d217666cd6e46ecf44044d0a71e674be4",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-116": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-116",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Required stamps = 3 + 1 + 2 + 5 + 10 = 21. The model incorrectly subtracts stamps.",
+    "fingerprint": "80148045df5aacbbab8dbf522b4ebbb812bc9c916aadf8fde58fc7525e040da3",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3594": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3594",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "a49155e8be9a774d8dbdab8a9754a31aaf74cc74126fe5b19047012e09072d80",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3940": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3940",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "e2c87ab2c7797b8f1967b28b5a98778ca138690f7c5579cb9ea98fc616526575",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-2177": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-2177",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "972c433f48d4bc20bbb5f4b078fc667cc0e53738e4fa5e696ad25a571d056543",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-4590": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-4590",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "b963c5fe40334db181e5217e0abc3ad8d1d959ab1c33ec754c38802dcabdafb9",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-1277": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-1277",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "72e2b4a2fe7c9fb71c0bdd48d5d5a69ab3ad131cb3f700be21d4d2aa8a07227b",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3844": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3844",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "2e58f4a7635ae22a5f274352a68f5a1929c277008d578052c26b39bbe27f8bbb",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-7315": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-7315",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "e61fc2b56253320d66b48e612469ec974a5f06951a9aab579a059a735a48cc84",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-2409": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-2409",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "a06aa13ffaf968afbc9539243e1709f2171c215336b7c6ff2af2883818f0a4c1",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-5358": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-5358",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "463d3ef80eec34592e0c159752622e6d6210d078aee886b0952f6eb12feb71e4",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-7090": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-7090",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "5af04581e81f7c0b1c496b96d6b9bd9d97c09134ee643913e1583acd5df7f7cb",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-2208": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-2208",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "0a1eae1d0dfb578ce935ea7cbe33dd1e29779e20b62f9ae780507c11ae9e1ee2",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-2035": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-2035",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "dcdc253d55cc59d270c1294f98e045285b7c7c8d8d0f74ba83db86dc278fb621",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-5888": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-5888",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Under the explicitly stated four-week assumption, salary = 5 * 8 * (6 * 4 - 1) = 920. The model ignores the missed workday.",
+    "fingerprint": "1f87b3674c03c185587ad57c61cda4f9082c74eedacc805479d43fe66db515a6",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-1052": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-1052",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "The target 25 is incorrect. John = (79 + 5) / 2 = 42. James = 42 - (35 - 23) = 30. Both models also answer incorrectly.",
+    "fingerprint": "d0c7af0b9b6081d75bc98ba15c8a6eebc8ed87ef6b1b08aaa05c7d1326dda4e7",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3575": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3575",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "c1f4fab7bda6ddad7dae4085e9e39362f026943a127d1abe42e20d5c439b2c6b",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-4192": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-4192",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "07b5569aee9731f9ebed1c446669291edf9b6983d45c72ffe38ef9a920eda32f",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-1906": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-1906",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "1538023fa29592fc38bf57caf887d96e0fa00885c13a0cc68a59296f2de9302a",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3894": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3894",
+    "subject": "mathematics",
+    "status": "ambiguous",
+    "note": "The question does not clearly distinguish fuel consumed from new fuel purchased, given the initial full tank and final refill. Fuel consumed is worth 80 dollars. V3's 200-dollar calculation is unsupported. Exclude this question from the comparison for both models.",
+    "fingerprint": "f29f911c0e488ca984b020f4c796cb73862ee9d61524910fb324ceb60e80e50c",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-4185": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-4185",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "adf04cc39d77b511254cf319a0246c0290b659728453bac4159e1f36d7c61c04",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-5765": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-5765",
+    "subject": "mathematics",
+    "status": "wrong",
+    "note": "Using the two stated 14-day periods plus today: 0.25 * 3 * 14 + 0.5 * 2 * 14 + 0.5 = 25. The model uses incorrect time periods.",
+    "fingerprint": "44fcfd5d1de1a9680fb2653ef3d62175376e1bf4f3eefdd6ebf8e307ff319b6c",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  },
+  "V3 step-250|gsm8k-train-3101": {
+    "model": "V3 step-250",
+    "id": "gsm8k-train-3101",
+    "subject": "mathematics",
+    "status": "correct",
+    "note": "Batch review: the calculation and final answer are consistent under the word problem's intended assumptions.",
+    "fingerprint": "4d2176256f5f37c544a3cd8bd154a054b7e90dcb9409a62032a736e63317a667",
+    "review_source": "Assistant batch mathematics review",
+    "review_rule": "Correct result and consistent explanation; answer-format differences are accepted."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "adapter": "models/qwen-general-lora-v6/step-100",
+  "completed": true,
+  "method": "BM25 retrieval plus passage answering",
+  "retrieval_query": "Question only",
+  "top_k": 3,
+  "scoring": "Requires answer and source-support review",
+  "predictions": [
+    {
+      "id": "constructed-history-rwanda-004",
+      "subject": "history",
+      "region": "rwanda",
+      "question": "Who led the coup that removed Grégoire Kayibanda on 5 July 1973?",
+      "context": "",
+      "target": "Major General Juvénal Habyarimana led the coup.",
+      "source_title": "History for Rwanda Schools, Senior 5",
+      "source_publisher": "Rwanda Basic Education Board",
+      "source_year": 2020,
+      "source_pdf_page": 28,
+      "source_sha256": "cac3bc0bca8dd79bb13850b489271cb71308683dd0547bedcd0965e177a31d62",
+      "example_type": "AI-constructed, source-backed paraphrase",
+      "review_status": "source_checked_by_assistant",
+      "split": "validation",
+      "system_prompt": "Answer the history question accurately in simple English. Give a short, direct answer. If you are unsure, say so. Do not invent facts.",
+      "input": "Who led the coup that removed Grégoire Kayibanda on 5 July 1973?",
+      "human_review_completed": false,
+      "prediction": "Juvénal Habyarimana",
+      "retrieved_chunks": [
+        {
+          "pdf_page": 27,
+          "text": "insecurity that opened the way for the 5th July 1973 Coup d’état. This impunity degenerated into regional confrontation. The Hutu of the north started to resent and fight the Hutu of the central part of the country favoured by President Kayibanda. It was under these circumstances that Habyarimana Juvenal, the minister of defence decided to intervene militarily. He overthrew Kayibanda in the coup d’état of 5 th July 1973. Kayibanda and many officials in his regime were thrown into prison. They faced court martial. They were sentenced to death or given long prison sentences. Discriminatory ideology (Ethnicism and regionalism). Tutsi did not enjoy their basic rights while the power was concentrated in the hands of the PARMEHUTU members from Gitarama, the home area of President Grégoire Kayibanda. No respect of the Republican institutions. President Grégoire Kayibanda did not allow the Parliament to achieve its mission of",
+          "score": 26.15643330833909
+        },
+        {
+          "pdf_page": 28,
+          "text": "16 17 supervising the Government. Moreover, the Supreme Court found it difficult if not impossible to prevent Grégoire Kayibanda from changing some articles of the constitution without the population’s consent. He wanted to be reelected for the 3rd term in 1973. •The 5th July 1973 coup d’état. Major General Juvénal Habyarimana, then Minister of defense and chief of staff of the army, overthrew Grégoire Kayibanda in a military coup d’état on 5th July 1973. He declared that he had come to save a country that was about to be pushed into a bottomless chasm by a band of tired and irresponsible politicians. Application Activities 1.1 Conduct research on the failures and reasons for the fall of the First Republic and answer the following questions. Present the results of your findings to the class. 1. What were the major failures of the First Republic of Rwanda? 2. Identify the factors that contributed to the fall of the First Republic of Rwanda. 1.2. The Second Republic (1973-1994) Learning Activities 1.2 Research on the political evolution of Rwanda during the Second Republic and",
+          "score": 22.33932657464338
+        },
+        {
+          "pdf_page": 28,
+          "text": "answer the following questions. Present the results of your findings to the class. 1. What were the major failures of the First Republic of Rwanda? 2. Identify the factors that contributed to the fall of the First Republic of Rwanda. 1.2. The Second Republic (1973-1994) Learning Activities 1.2 Research on the political evolution of Rwanda during the Second Republic and find answers to the following questions. Present the results of your findings to the class. 1. Identify and explain the political and institutional changes made after the coup d’état of July 5 th, 1973. 2. What were the new political institutions set up by the Second Republic? 1.2.1. Establishment of the Second Republic On July 5 th, 1973, President Kayibanda was overthrown in a coup d’état led by Major General Habyarimana Juvenal. The latter was assisted by the following senior military officers: Lieutenant Colonel Alexis Kanyarengwe, Majors Aloys Nsekarije, Benda Sabin, Ruhashya Epimaque, Gahimano Fabien, Jean Népomuscéne",
+          "score": 21.387809219382362
+        }
+      ]
+    },
+    {
+      "id": "constructed-history-rwanda-005",
+      "subject": "history",
+      "region": "rwanda",
+      "question": "What happened to Rwanda's National Assembly following the July 1973 coup?",
+      "context": "",
+      "target": "The coup leaders dissolved the National Assembly.",
+      "source_title": "History for Rwanda Schools, Senior 5",
+      "source_publisher": "Rwanda Basic Education Board",
+      "source_year": 2020,
+      "source_pdf_page": 29,
+      "source_sha256": "cac3bc0bca8dd79bb13850b489271cb71308683dd0547bedcd0965e177a31d62",
+      "example_type": "AI-constructed, source-backed paraphrase",
+      "review_status": "source_checked_by_assistant",
+      "split": "validation",
+      "system_prompt": "Answer the history question accurately in simple English. Give a short, direct answer. If you are unsure, say so. Do not invent facts.",
+      "input": "What happened to Rwanda's National Assembly following the July 1973 coup?",
+      "human_review_completed": false,
+      "prediction": "dissolved",
+      "retrieved_chunks": [
+        {
+          "pdf_page": 29,
+          "text": "18 19 Munyandekwe, Bonaventure Ntibitura, Serubuga Laurent, Buregeya Bonaventure and Simba Aloys. President Juvénal Habyarimana (1937 – 1994). (Source: Google/ image) The coup leaders dissolved the National Assembly, suspended the 1962 constitution and banned all political activity. They suppressed MDR- PARMEHUTU Portical Party, They at the same time put in place what they called a National Peace and Unity Committee composed of 11 senior officers to replace the ousted government. Given the state of insecurity the country was going through before the coup d’état of 5th July 1973, this committee was greeted with a lot of hope, even among the Rwandan refugees. In President Habyarimana’s declaration on July 5 th, 1974, much was said about national peace and unity. He castigated regionalism, public immorality, and corruption. 1.2.2. Assessment of the Second Republic Achievements of the Second Republic . In terms of political matter On July 5th 1975, Major General Juvénal Habya rimana etablished Mouvement Révolutionnaire National pour le Développement (MRND). The Party’s main objective was to unify, encourage and intensify efforts of all Rwandans to enhance economic, social and cultural",
+          "score": 18.18797083818685
+        },
+        {
+          "pdf_page": 28,
+          "text": "16 17 supervising the Government. Moreover, the Supreme Court found it difficult if not impossible to prevent Grégoire Kayibanda from changing some articles of the constitution without the population’s consent. He wanted to be reelected for the 3rd term in 1973. •The 5th July 1973 coup d’état. Major General Juvénal Habyarimana, then Minister of defense and chief of staff of the army, overthrew Grégoire Kayibanda in a military coup d’état on 5th July 1973. He declared that he had come to save a country that was about to be pushed into a bottomless chasm by a band of tired and irresponsible politicians. Application Activities 1.1 Conduct research on the failures and reasons for the fall of the First Republic and answer the following questions. Present the results of your findings to the class. 1. What were the major failures of the First Republic of Rwanda? 2. Identify the factors that contributed to the fall of the First Republic of Rwanda. 1.2. The Second Republic (1973-1994) Learning Activities 1.2 Research on the political evolution of Rwanda during the Second Republic and",
+          "score": 16.586149693087602
+        },
+        {
+          "pdf_page": 28,
+          "text": "answer the following questions. Present the results of your findings to the class. 1. What were the major failures of the First Republic of Rwanda? 2. Identify the factors that contributed to the fall of the First Republic of Rwanda. 1.2. The Second Republic (1973-1994) Learning Activities 1.2 Research on the political evolution of Rwanda during the Second Republic and find answers to the following questions. Present the results of your findings to the class. 1. Identify and explain the political and institutional changes made after the coup d’état of July 5 th, 1973. 2. What were the new political institutions set up by the Second Republic? 1.2.1. Establishment of the Second Republic On July 5 th, 1973, President Kayibanda was overthrown in a coup d’état led by Major General Habyarimana Juvenal. The latter was assisted by the following senior military officers: Lieutenant Colonel Alexis Kanyarengwe, Majors Aloys Nsekarije, Benda Sabin, Ruhashya Epimaque, Gahimano Fabien, Jean Népomuscéne",
+          "score": 15.348067309092205
+        }
+      ]
+    },
+    {
+      "id": "constructed-history-rwanda-006",
+      "subject": "history",
+      "region": "rwanda",
+      "question": "In which year did Juvénal Habyarimana establish the MRND party?",
+      "context": "",
+      "target": "He established the MRND party in 1975.",
+      "source_title": "History for Rwanda Schools, Senior 5",
+      "source_publisher": "Rwanda Basic Education Board",
+      "source_year": 2020,
+      "source_pdf_page": 29,
+      "source_sha256": "cac3bc0bca8dd79bb13850b489271cb71308683dd0547bedcd0965e177a31d62",
+      "example_type": "AI-constructed, source-backed paraphrase",
+      "review_status": "source_checked_by_assistant",
+      "split": "validation",
+      "system_prompt": "Answer the history question accurately in simple English. Give a short, direct answer. If you are unsure, say so. Do not invent facts.",
+      "input": "In which year did Juvénal Habyarimana establish the MRND party?",
+      "human_review_completed": false,
+      "prediction": "1975",
+      "retrieved_chunks": [
+        {
+          "pdf_page": 36,
+          "text": "faculties was reduced from 5 to 4 years. Failures of the Second Republic Increased dictatorship. With the aim of consolidating his regime, Juvénal Habyarimana took various measures. On 5th July 1975, Le Mouvement Révolutionnaire National pour le Dévelopement, (MRND) became a “Party State” as was MDR-PARMEHUTU under the First Republic. Moreover, the central committee of MRND was the highest decision-making body in the Habyarimana regime. The article 7 of the 24 December 1978 Constitution consecrates MRND as the sole political party and all Rwandans were automatically its members. Therefore, Juvénal Habyarimana, the President of MRND, was the sole candidate in the 1983 and 1988 presidential elections. The Government made no significant efforts to solve the refugee problem. In June-July 1989, the central committee of MRND examined the problem of Rwandan refugees scattered around the world, especially in the neighboring countries. The central committee resolved that refugees were not to return massively into the country. It strongly advocated that refugees should find a way of integrating themselves into their respective countries of asylum. The central committee of MRND declared openly that",
+          "score": 19.483821983408962
+        },
+        {
+          "pdf_page": 30,
+          "text": "18 19 votes. At the same time Habyarimana was elected through universal suffrage as president of Rwanda with a 99 percent majority. Article 7 of the constitution declared Rwanda a single party state under the MRND where every citizen was a member right from birth. In reality, this was the establishment of a one party political system. The president of the MRND party had to be the sole presidential candidate. The new constitution abolished the National Assembly and replaced it with The National Development Council (NDC). The first National Development Council or (Conseil National pour le Développement( CND)) was elected in 1983. At the diplomatic level, the Second Republic made international openness and cooperation one of its main priorities. Rwanda therefore increased the number of its diplomatic representatives abroad. On December 19 th, 1983 Juvénal Habyarimana was re-elected president of Rwanda with 99.98 per cent of the votes. After five years, on December 19 th, 1988 Juvénal Habyarimana was re- elected again for five years winning 99.8 per cent of the votes. In June 1990, French President François Mitterrand gave",
+          "score": 17.89988570573756
+        },
+        {
+          "pdf_page": 36,
+          "text": "24 25 Kinyarwanda became a language of instruction from P 1 up to P 8. So, in 1991, these reforms were revised, the primary education cycle was brought back to 6 years. At the secondary education level, the Ordinary Level was reduced and specialisations sections introduced in the second year of secondary education. But this reform failed due to lack of: ࿤ teaching materials ࿤ qualified teachers in the newly introduced subjects ࿤ appropriate evaluation methods for the reform. At university level, the Institut Pédagogique National (IPN) was fused with some departments of the National University of Rwanda. The new campus of Nyakinama was created in 1980–1981 as the result of this fusion. Besides, the duration of studies in most faculties was reduced from 5 to 4 years. Failures of the Second Republic Increased dictatorship. With the aim of consolidating his regime, Juvénal Habyarimana took various measures. On 5th July 1975, Le Mouvement Révolutionnaire National pour le Dévelopement, (MRND) became a “Party State” as was MDR-PARMEHUTU under the First Republic. Moreover, the central committee of MRND was the highest decision-making",
+          "score": 15.400615502405024
+        }
+      ]
+    },
+    {
+      "id": "constructed-history-africa-012",
+      "subject": "history",
+      "region": "africa",
+      "question": "How did colonial administration affect the independence of African communities?",
+      "context": "",
+      "target": "Communities placed under colonial administration lost the ability to govern themselves independently.",
+      "source_title": "History for Rwanda Schools, Senior 5",
+      "source_publisher": "Rwanda Basic Education Board",
+      "source_year": 2020,
+      "source_pdf_page": 110,
+      "source_sha256": "cac3bc0bca8dd79bb13850b489271cb71308683dd0547bedcd0965e177a31d62",
+      "example_type": "AI-constructed, source-backed paraphrase",
+      "review_status": "source_checked_by_assistant",
+      "split": "validation",
+      "system_prompt": "Answer the history question accurately in simple English. Give a short, direct answer. If you are unsure, say so. Do not invent facts.",
+      "input": "How did colonial administration affect the independence of African communities?",
+      "human_review_completed": false,
+      "prediction": "ceased to be self-governing states",
+      "retrieved_chunks": [
+        {
+          "pdf_page": 110,
+          "text": "the class. 5.2 Effects of Colonisation on African Society Learning Activity 5.2 Evaluate the following negative effects of Colonisation on the African societies: loss of political power , killings, and sexual abuse. Present the results of your discussion to the class . 5.2.1 Negative Effects of Colonisation on African Societies Loss of African independence African communities lost their independence because they ceased to be self-governing states. They were brought under colonial administration either through peaceful signing of agreements or military conquest. Division of African tribes People from the same tribes were divided by colonial boundaries drawn arbitrarily. They lived under different political, economic and",
+          "score": 17.254329278639464
+        },
+        {
+          "pdf_page": 110,
+          "text": "98 99 unavailable, slaves were often imported to the Americas, first by the Portuguese Empire, and later by the Spanish, Dutch, French and British. Plantation colonies would be considered exploitation colonialism. However, colonising powers would utilise either type for different territories depending on various social and economic factors as well as climate and geographic conditions. Surrogate colonialism involves a settlement project supported by a colonial power, in which most of the settlers do not come from the ruling power. Internal colonialism refers to inequalities in power between areas of a nation state. The source of exploitation comes from within the state. Application Activity 5.1 With examples discuss the different types of colonialism and present the results of your discussion to the class. 5.2 Effects of Colonisation on African Society Learning Activity 5.2 Evaluate the following negative effects of Colonisation on the African societies: loss of political power , killings, and sexual abuse. Present the results of your discussion to the class . 5.2.1 Negative Effects of Colonisation on African Societies Loss of African independence African communities lost their independence because",
+          "score": 11.226083452928986
+        },
+        {
+          "pdf_page": 224,
+          "text": "the achievement of African independence. The Africans massively supported their new African leaders, leading to the success of their policies. Negative effects of colonialism: Africans had for long suffered from colonial constraints. This is why self-reliance policies were successful in many African countries. Economic crisis after the independence: The economic crisis was among the immediate problems faced by Africans. Self-reliance was seen as solution to these problems. This led to their success because they were supported by the population.",
+          "score": 9.774822103183999
+        }
+      ]
+    }
+  ]
+}

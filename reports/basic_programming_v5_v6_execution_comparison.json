@@ -1,0 +1,638 @@
+{
+  "metric": "Task passes only if every supplied test passes",
+  "limitations": "Small basic-task evaluation, not broad coding accuracy. Tests do not cover every permitted input. Original generated programs are executed without repairs.",
+  "models": {
+    "v5": {
+      "tasks_passed": 5,
+      "total_tasks": 8,
+      "by_language": {
+        "python": {
+          "passed": 3,
+          "total": 4
+        },
+        "java": {
+          "passed": 2,
+          "total": 4
+        }
+      },
+      "results": [
+        {
+          "id": "basic-python-add_integers",
+          "language": "python",
+          "compile_result": null,
+          "passed": true,
+          "tests": [
+            {
+              "input": "7 12\n",
+              "expected": "19",
+              "returncode": 0,
+              "stdout": "19\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "-8 3\n",
+              "expected": "-5",
+              "returncode": 0,
+              "stdout": "-5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "0 0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-python-maximum",
+          "language": "python",
+          "compile_result": null,
+          "passed": false,
+          "tests": [
+            {
+              "input": "5\n3 9 2 9 1\n",
+              "expected": "9",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Traceback (most recent call last):\n  File \"/var/folders/fk/dxmgv95s2lgf2zw7gfvhqdnr0000gp/T/education-code-check-qrp0zxj5/solution.py\", line 7, in <module>\n    num = int(sys.stdin.readline().strip())\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '3 9 2 9 1'\n",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "3\n-8 -2 -6\n",
+              "expected": "-2",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Traceback (most recent call last):\n  File \"/var/folders/fk/dxmgv95s2lgf2zw7gfvhqdnr0000gp/T/education-code-check-qrp0zxj5/solution.py\", line 7, in <module>\n    num = int(sys.stdin.readline().strip())\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '-8 -2 -6'\n",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "1\n0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-python-count_vowels",
+          "language": "python",
+          "compile_result": null,
+          "passed": true,
+          "tests": [
+            {
+              "input": "Education\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "AEIOU xyz\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-python-factorial",
+          "language": "python",
+          "compile_result": null,
+          "passed": true,
+          "tests": [
+            {
+              "input": "0\n",
+              "expected": "1",
+              "returncode": 0,
+              "stdout": "1\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "5\n",
+              "expected": "120",
+              "returncode": 0,
+              "stdout": "120\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "20\n",
+              "expected": "2432902008176640000",
+              "returncode": 0,
+              "stdout": "2432902008176640000\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-add_integers",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": true,
+          "tests": [
+            {
+              "input": "7 12\n",
+              "expected": "19",
+              "returncode": 0,
+              "stdout": "19\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "-8 3\n",
+              "expected": "-5",
+              "returncode": 0,
+              "stdout": "-5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "0 0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-maximum",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": true,
+          "tests": [
+            {
+              "input": "5\n3 9 2 9 1\n",
+              "expected": "9",
+              "returncode": 0,
+              "stdout": "9\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "3\n-8 -2 -6\n",
+              "expected": "-2",
+              "returncode": 0,
+              "stdout": "-2\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "1\n0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-count_vowels",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": false,
+          "tests": [
+            {
+              "input": "Education\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "AEIOU xyz\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-factorial",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": false,
+          "tests": [
+            {
+              "input": "0\n",
+              "expected": "1",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat Main.main(Main.java:5)\n",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "5\n",
+              "expected": "120",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat Main.main(Main.java:5)\n",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "20\n",
+              "expected": "2432902008176640000",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat Main.main(Main.java:5)\n",
+              "timed_out": false,
+              "passed": false
+            }
+          ]
+        }
+      ]
+    },
+    "v6": {
+      "tasks_passed": 7,
+      "total_tasks": 8,
+      "by_language": {
+        "python": {
+          "passed": 4,
+          "total": 4
+        },
+        "java": {
+          "passed": 3,
+          "total": 4
+        }
+      },
+      "results": [
+        {
+          "id": "basic-python-add_integers",
+          "language": "python",
+          "compile_result": null,
+          "passed": true,
+          "tests": [
+            {
+              "input": "7 12\n",
+              "expected": "19",
+              "returncode": 0,
+              "stdout": "19\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "-8 3\n",
+              "expected": "-5",
+              "returncode": 0,
+              "stdout": "-5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "0 0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-python-maximum",
+          "language": "python",
+          "compile_result": null,
+          "passed": true,
+          "tests": [
+            {
+              "input": "5\n3 9 2 9 1\n",
+              "expected": "9",
+              "returncode": 0,
+              "stdout": "9\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "3\n-8 -2 -6\n",
+              "expected": "-2",
+              "returncode": 0,
+              "stdout": "-2\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "1\n0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-python-count_vowels",
+          "language": "python",
+          "compile_result": null,
+          "passed": true,
+          "tests": [
+            {
+              "input": "Education\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "AEIOU xyz\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-python-factorial",
+          "language": "python",
+          "compile_result": null,
+          "passed": true,
+          "tests": [
+            {
+              "input": "0\n",
+              "expected": "1",
+              "returncode": 0,
+              "stdout": "1\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "5\n",
+              "expected": "120",
+              "returncode": 0,
+              "stdout": "120\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "20\n",
+              "expected": "2432902008176640000",
+              "returncode": 0,
+              "stdout": "2432902008176640000\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-add_integers",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": true,
+          "tests": [
+            {
+              "input": "7 12\n",
+              "expected": "19",
+              "returncode": 0,
+              "stdout": "19\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "-8 3\n",
+              "expected": "-5",
+              "returncode": 0,
+              "stdout": "-5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "0 0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-maximum",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": true,
+          "tests": [
+            {
+              "input": "5\n3 9 2 9 1\n",
+              "expected": "9",
+              "returncode": 0,
+              "stdout": "9\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "3\n-8 -2 -6\n",
+              "expected": "-2",
+              "returncode": 0,
+              "stdout": "-2\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "1\n0\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-count_vowels",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": true,
+          "tests": [
+            {
+              "input": "Education\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "AEIOU xyz\n",
+              "expected": "5",
+              "returncode": 0,
+              "stdout": "5\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            },
+            {
+              "input": "\n",
+              "expected": "0",
+              "returncode": 0,
+              "stdout": "0\n",
+              "stderr": "",
+              "timed_out": false,
+              "passed": true
+            }
+          ]
+        },
+        {
+          "id": "basic-java-factorial",
+          "language": "java",
+          "compile_result": {
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "",
+            "timed_out": false
+          },
+          "passed": false,
+          "tests": [
+            {
+              "input": "0\n",
+              "expected": "1",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat Main.main(Main.java:5)\n",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "5\n",
+              "expected": "120",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat Main.main(Main.java:5)\n",
+              "timed_out": false,
+              "passed": false
+            },
+            {
+              "input": "20\n",
+              "expected": "2432902008176640000",
+              "returncode": 1,
+              "stdout": "",
+              "stderr": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat Main.main(Main.java:5)\n",
+              "timed_out": false,
+              "passed": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

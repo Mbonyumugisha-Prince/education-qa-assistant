@@ -1,0 +1,120 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "split": "validation",
+  "sampling_seed": 42,
+  "device": "cpu",
+  "dtype": "float32",
+  "do_sample": false,
+  "predictions": [
+    {
+      "id": "sciq-validation-843",
+      "subject": "science",
+      "question": "What do we call cyclones that form in tropical latitudes?",
+      "target": "hurricanes",
+      "prediction": "Hurricanes",
+      "system_prompt": "Answer using only the supplied passage. Return only a short answer, without explanation. If the passage does not provide the answer, say 'Insufficient information'.",
+      "max_new_tokens": 128,
+      "generated_tokens": 3,
+      "reached_token_limit": false
+    },
+    {
+      "id": "sciq-validation-736",
+      "subject": "science",
+      "question": "Relative humidity is related to the partial pressure of what in the air?",
+      "target": "water vapor",
+      "prediction": "water vapor",
+      "system_prompt": "Answer using only the supplied passage. Return only a short answer, without explanation. If the passage does not provide the answer, say 'Insufficient information'.",
+      "max_new_tokens": 128,
+      "generated_tokens": 3,
+      "reached_token_limit": false
+    },
+    {
+      "id": "sciq-validation-353",
+      "subject": "science",
+      "question": "A change in species over time is known as?",
+      "target": "evolution",
+      "prediction": "Evolution",
+      "system_prompt": "Answer using only the supplied passage. Return only a short answer, without explanation. If the passage does not provide the answer, say 'Insufficient information'.",
+      "max_new_tokens": 128,
+      "generated_tokens": 3,
+      "reached_token_limit": false
+    },
+    {
+      "id": "sciq-validation-77",
+      "subject": "science",
+      "question": "The top of the saturated rock layer is called what?",
+      "target": "water table",
+      "prediction": "water table",
+      "system_prompt": "Answer using only the supplied passage. Return only a short answer, without explanation. If the passage does not provide the answer, say 'Insufficient information'.",
+      "max_new_tokens": 128,
+      "generated_tokens": 3,
+      "reached_token_limit": false
+    },
+    {
+      "id": "sciq-validation-447",
+      "subject": "science",
+      "question": "What do humans use to make observations?",
+      "target": "senses",
+      "prediction": "Sight, hearing, touch, smell, and taste.",
+      "system_prompt": "Answer using only the supplied passage. Return only a short answer, without explanation. If the passage does not provide the answer, say 'Insufficient information'.",
+      "max_new_tokens": 128,
+      "generated_tokens": 13,
+      "reached_token_limit": false
+    },
+    {
+      "id": "gsm8k-train-3566",
+      "subject": "mathematics",
+      "question": "A class has 60 students. The number of students who bring their lunch is thrice the number of those who eat in the school cafeteria. The rest of the students don't eat lunch. If 10 students eat in the school cafeteria, how many don't eat lunch?",
+      "target": "Multiplying the number of students eating at the cafeteria by three means that 3 * 10 = 30 students bring lunch.\nThe total number of students that eat lunch is 10 + 30 = 40 students\nSince the class has 60 students, those who don't eat lunch are 60-40 = 20 students.\nFinal answer: 20",
+      "prediction": "Let's denote:\n- \\( C \\) as the number of students eating in the school cafeteria.\n- \\( L \\) as the number of students bringing their own lunch.\n\nFrom the problem statement, we know:\n\\[ C = 10 \\]\n\\[ L = 3C \\]\n\nFirst, calculate \\( L \\):\n\\[ L = 3 \\times 10 = 30 \\]\n\nNext, determine the total number of students who either bring their lunch or eat in the school cafeteria:\n\\[ C + L = 10 + 30 = 40 \\]\n\nSince there are 60 students in total, subtract this from the total to find out how many do not eat lunch:\n\\[ 60 - (C + L) = 60 - 40 = 20 \\]\n\nTherefore, the number of students who don’t eat lunch is:\n\\[ \\boxed{20} \\]",
+      "system_prompt": "Solve the mathematics problem carefully. Explain the calculation briefly. Do not invent missing information. Finish with a separate line: Final answer: NUMBER",
+      "max_new_tokens": 768,
+      "generated_tokens": 192,
+      "reached_token_limit": false
+    },
+    {
+      "id": "gsm8k-train-5941",
+      "subject": "mathematics",
+      "question": "Aunt May milks her cows twice a day. This morning she got 365 gallons of milk. This evening she got 380 gallons. She sold 612 gallons to the local ice cream factory. She had 15 gallons left over from yesterday. How many gallons of milk does she have left?",
+      "target": "Today Aunt May's cows gave her 365 gallons + 380 = 745 gallons of milk.\nShe had 745 gallons - 612 gallons sold to the ice cream factory = 133 gallons of milk left.\nCombined with the leftover from yesterday, Aunt May has 133 gallons + 15 gallons = 148 gallons of milk.\nFinal answer: 148",
+      "prediction": "To find out how many gallons of milk Aunt May has left, we need to follow these steps:\n\n1. Calculate the total amount of milk collected today.\n2. Add the leftover milk from yesterday to the total milk collected today.\n3. Subtract the amount of milk sold to the ice cream factory.\n\nLet's go through each step in detail:\n\n1. **Total milk collected today**:\n   - Morning collection: 365 gallons\n   - Evening collection: 380 gallons\n\n   Total = Morning + Evening\n   Total = 365 + 380\n   Total = 745 gallons\n\n2. **Add the leftover milk from yesterday**:\n   - Leftover milk from yesterday: 15 gallons\n\n   Total milk now = Milk collected today + Leftover milk from yesterday\n   Total milk now = 745 + 15\n   Total milk now = 760 gallons\n\n3. **Subtract the amount of milk sold**:\n   - Milk sold to the ice cream factory: 612 gallons\n\n   Remaining milk = Total milk now - Milk sold\n   Remaining milk = 760 - 612\n   Remaining milk = 148 gallons\n\nTherefore, Aunt May has 148 gallons of milk left.",
+      "system_prompt": "Solve the mathematics problem carefully. Explain the calculation briefly. Do not invent missing information. Finish with a separate line: Final answer: NUMBER",
+      "max_new_tokens": 768,
+      "generated_tokens": 271,
+      "reached_token_limit": false
+    },
+    {
+      "id": "gsm8k-train-1658",
+      "subject": "mathematics",
+      "question": "James needs 200 blueberries to make a pint of blueberry jam and then a quart of blueberry jam to make a blueberry pie. If there are two pints per quart, how many blueberries does James need to pick to make 6 pies?",
+      "target": "First find the total number of blueberries needed for one pie: 200 blueberries/pint * 2 pints/pie = 400 blueberries/pie\nThen multiply that number by the number of pie to find the total number of blueberries James need: 400 blueberries/pie * 6 pies = 2400 blueberries\nFinal answer: 2400",
+      "prediction": "To determine how many blueberries James needs to pick to make 6 pies, we can break down the problem into smaller steps:\n\n1. **Calculate the number of blueberries needed for one pie:**\n   - A quart of blueberry jam requires 200 blueberries.\n   - Since there are two pints in a quart, making a pint of blueberry jam requires half as many blueberries:\n     \\[\n     \\frac{200}{2} = 100 \\text{ blueberries}\n     \\]\n   - Therefore, making a blueberry pie (which is made from a pint) requires 100 blueberries.\n\n2. **Calculate the total number of blueberries needed for 6 pies:**\n   - Each pie requires 100 blueberries.\n   - For 6 pies:\n     \\[\n     100 \\times 6 = 600 \\text{ blueberries}\n     \\]\n\nSo, James needs to pick 600 blueberries to make 6 pies.",
+      "system_prompt": "Solve the mathematics problem carefully. Explain the calculation briefly. Do not invent missing information. Finish with a separate line: Final answer: NUMBER",
+      "max_new_tokens": 768,
+      "generated_tokens": 216,
+      "reached_token_limit": false
+    },
+    {
+      "id": "gsm8k-train-2616",
+      "subject": "mathematics",
+      "question": "Don buys recyclable bottles in a small town. Shop A normally sells him 150 bottles, shop B sells him 180 bottles and Shop C sells him the rest. How many bottles does Don buy from Shop C if he is capable of buying only 550 bottles?",
+      "target": "Between Shop A and Shop B he buys 150 bottles+180 bottles=330 bottles\nThus he can buy 550 bottles-330 bottles=220 bottles from shop C\nFinal answer: 220",
+      "prediction": "To find out how many bottles Don buys from Shop C, we need to subtract the number of bottles bought from Shops A and B from the total number of bottles Don can buy.\n\nTotal bottles = 550\n\nBottles from Shop A = 150\nBottles from Shop B = 180\n\nSo, Bottles from Shop C = Total bottles - (Bottles from Shop A + Bottles from Shop B)\n\nLet's calculate it:\n\nBottles from Shop C = 550 - (150 + 180)\nBottles from Shop C = 550 - 330\nBottles from Shop C = 220\n\nTherefore, Don buys 220 bottles from Shop C.",
+      "system_prompt": "Solve the mathematics problem carefully. Explain the calculation briefly. Do not invent missing information. Finish with a separate line: Final answer: NUMBER",
+      "max_new_tokens": 768,
+      "generated_tokens": 163,
+      "reached_token_limit": false
+    },
+    {
+      "id": "gsm8k-train-4311",
+      "subject": "mathematics",
+      "question": "There is a fruit display that has apples, oranges, and bananas. There are twice as many apples as oranges, and there are twice as many oranges as bananas. How many fruits are on the display in total if there are 5 bananas on the display?",
+      "target": "We start by finding out that since there are twice as many oranges as the 5 bananas, this means there are 5*2=10 oranges.\nSince there are twice as many apples as the 10 oranges, this means there 10*2=20 apples.\nIn total, this means there are 20+10+5= 35 fruits on the display.\nFinal answer: 35",
+      "prediction": "To solve this problem, we need to determine the number of each type of fruit based on the given relationships and then sum them up.\n\n1. **Identify the relationship between bananas and oranges:**\n   - We know there are 5 bananas.\n   - According to the problem, there are twice as many oranges as bananas.\n     \\[\n     \\text{Number of oranges} = 2 \\times \\text{Number of bananas}\n     \\]\n     Substituting the number of bananas:\n     \\[\n     \\text{Number of oranges} = 2 \\times 5 = 10\n     \\]\n\n2. **Identify the relationship between oranges and apples:**\n   - The problem states there are twice as many apples as oranges.\n     \\[\n     \\text{Number of apples} = 2 \\times \\text{Number of oranges}\n     \\]\n     Substituting the number of oranges:\n     \\[\n     \\text{Number of apples} = 2 \\times 10 = 20\n     \\]\n\n3. **Calculate the total number of fruits:**\n   - Add the number of apples, oranges, and bananas together:\n     \\[\n     \\text{Total number of fruits} = \\text{Number of apples} + \\text{Number of oranges} + \\text{Number of bananas}\n     \\]\n     Substituting the values we found:\n     \\[\n     \\text{Total number of fruits} = 20 + 10 + 5 = 35\n     \\]\n\nTherefore, the total number of fruits on the display is \\( \\boxed{35} \\).",
+      "system_prompt": "Solve the mathematics problem carefully. Explain the calculation briefly. Do not invent missing information. Finish with a separate line: Final answer: NUMBER",
+      "max_new_tokens": 768,
+      "generated_tokens": 341,
+      "reached_token_limit": false
+    }
+  ]
+}

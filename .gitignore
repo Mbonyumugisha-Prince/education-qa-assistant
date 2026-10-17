@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Local datasets and model files
+data/raw/
+data/processed/
+models/
+*.pdf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# macOS
+.DS_Store

@@ -1,0 +1,199 @@
+
+============================================================
+ID: sciq-validation-485
+Subject: science
+Passage: Fossils are the best form of evidence about the history of life on Earth. Fossils also give us clues about major geological events and past climates. Index fossils are useful for determining the ages of rock layers.
+Question: What type of fossils are useful for determining the ages of rock layers?
+Expected: index fossils
+Prediction: index
+Scoring method: Normalized text comparison
+
+============================================================
+ID: sciq-validation-392
+Subject: science
+Passage: Speciation, the creation of a new species, can happen through natural selection or artificial selection.
+Question: New species may be created by natural selection and one other way. what is the other way?
+Expected: artifical selection
+Prediction: artificial selection
+Scoring method: Normalized text comparison
+
+============================================================
+ID: sciq-validation-845
+Subject: science
+Passage: Oil, or petroleum, is one of several fossil fuels . Fossil fuels are mixtures of hydrocarbons (compounds containing only hydrogen and carbon) that formed over millions of years from the remains of dead organisms. In addition to oil, they include coal and natural gas. Fossil fuels provide most of the energy used in the world today. They are burned in power plants to produce electrical energy, and they also fuel cars, heat homes, and supply energy for many other purposes. You can see some ways they are used in the Figure below . For a more detailed introduction to fossil fuels, go to this URL: http://www. ecokids. ca/pub/eco_info/topics/energy/ecostats/index. cfm.
+Question: What fuels are mixtures of hydrocarbons (compounds containing only hydrogen and carbon) that formed over millions of years from the remains of dead organisms?
+Expected: fossil
+Prediction: oil, coal, natural gas
+Scoring method: Normalized text comparison
+
+============================================================
+ID: sciq-validation-908
+Subject: science
+Passage: Compound machines such as a wheelbarrow or corkscrew consist of just two simple machines. Big compound machines such as cars consist of hundreds or thousands of simple machines.
+Question: What is created when you combine simple machines?
+Expected: compound machines
+Prediction: compound machine
+Scoring method: Normalized text comparison
+
+============================================================
+ID: sciq-validation-674
+Subject: science
+Passage: Inherited Immunodeficiencies A list of all inherited immunodeficiencies is well beyond the scope of this book. The list is almost as long as the list of cells, proteins, and signaling molecules of the immune system itself. Some deficiencies, such as those for complement, cause only a higher susceptibility to some Gram-negative bacteria. Others are more severe in their consequences. Certainly, the most serious of the inherited immunodeficiencies is severe combined immunodeficiency disease (SCID). This disease is complex because it is caused by many different genetic defects. What groups them together is the fact that both the B cell and T cell arms of the adaptive immune response are affected. Children with this disease usually die of opportunistic infections within their first year of life unless they receive a bone marrow transplant. Such a procedure had not yet been perfected for David Vetter, the “boy in the bubble,” who was treated for SCID by having to live almost his entire life in a sterile plastic cocoon for the 12 years before his death from infection in 1984. One of the features that make bone marrow transplants work as well as they do is the proliferative capability of hematopoietic stem cells of the bone marrow. Only a small amount of bone marrow from a healthy donor is given intravenously to the recipient. It finds its own way to the bone where it populates it, eventually reconstituting the patient’s immune system, which is usually destroyed beforehand by treatment with radiation or chemotherapeutic drugs. New treatments for SCID using gene therapy, inserting nondefective genes into cells taken from the patient and giving them back, have the advantage of not needing the tissue match required for standard transplants. Although not a standard treatment, this approach holds promise, especially for those in whom standard bone marrow transplantation has failed.
+Question: The 'boy in the bubble' is a classic example of someone suffering what type of disease that can cause opportunistic infections?
+Expected: inherited immunodeficiency
+Prediction: severe combined immunodeficiency disease (scid)
+Scoring method: Normalized text comparison
+
+============================================================
+ID: sciq-validation-904
+Subject: science
+Passage: The human ear is pictured below ( Figure below ). As you read about it, trace the path of sound waves through the ear. Assume a car horn blows in the distance. Sound waves spread through the air from the horn. Some of the sound waves reach your ear. The steps below show what happens next. They explain how your ears sense the sound.
+Question: What is defined as the ability to cause changes in matter?
+Expected: energy
+Prediction: insufficient information
+Scoring method: Normalized text comparison
+
+============================================================
+ID: gsm8k-train-3069
+Subject: mathematics
+Question: Marianne was 20 years old when Bella was 8 years old. How old will Marianne be when Bella turns 18?
+Expected: Marianne is 20 - 8 = 12 years older than Bella.
+Bella will turn 18 in 18 - 8 = 10 years.
+So, Marianne will be 20 + 10 = 30 years old then.
+Final answer: 30
+Prediction: To determine how old Marianne will be when Bella turns 18, we need to follow these steps:
+
+1. **Determine the age difference between Marianne and Bella:**
+   - When Bella is 8 years old, Marianne is 20 years old.
+   - The age difference between them is \( 20 - 8 = 12 \) years.
+
+2. **Calculate Marianne's age when Bella turns 18:**
+   - Since the age difference remains constant at 12 years, we add this difference to Bella's future age:
+     \[
+     18 + 12 = 30
+     \]
+
+Therefore, Marianne will be 30 years old when Bella turns 18.
+Scoring method: No unambiguous final answer found
+
+============================================================
+ID: gsm8k-train-3940
+Subject: mathematics
+Question: Every 4 weeks, Helen hand washes her silk pillowcases. It takes 30 minutes to hand wash all of them. In 1 year, how much time does Helen spend hand washing her pillowcases?
+Expected: She hand washes them every 4 weeks and there are 52 weeks in a year so she washes them 52/4 = 13 times per year
+It takes her 30 minutes to hand wash the pillowcases and she does this 13 times per year for a total of 30*13 = 390 minutes per year
+Final answer: 390
+Prediction: To determine how much time Helen spends hand-washing her silk pillowcases in one year, we need to follow these steps:
+
+1. **Calculate the number of times Helen hands washes her pillowcases per year**:
+   - There are 52 weeks in a year.
+   - Helen hands washes her pillowcases every 4 weeks.
+
+\[
+\text{Number of hand washes per year} = \frac{\text{Total weeks in a year}}{\text{Weeks between each hand wash}}
+\]
+
+\[
+\text{Number of hand washes per year} = \frac{52}{4} = 13
+\]
+
+2. **Determine the total time spent on hand washing per year**:
+   - Each hand wash takes 30 minutes.
+
+\[
+\text{Total time spent per year} = \text{Number of hand washes per year} \times \text{Time per hand wash}
+\]
+
+\[
+\text{Total time spent per year} = 13 \times 30 = 390 \text{ minutes}
+\]
+
+Therefore, Helen spends **390 minutes** (or 6 hours and 30 minutes) hand-washing her pillowcases in one year.
+Scoring method: No unambiguous final answer found
+
+============================================================
+ID: gsm8k-train-5888
+Subject: mathematics
+Question: Julie works at a restaurant that pays her an hourly rate of $5. She works 8 hours a day and 6 days a week. How much is her monthly salary if she was not able to go to work for a day?
+Expected: Julie's daily earnings are $5 x 8 = $40.
+Her weekly earnings are $40 x 6 = $240.
+Her monthly earnings are $240 x 4 = $960.
+Since she was not able to work for a day, her salary will be $960 - $40 = $920.
+Final answer: 920
+Prediction: To calculate Julie's monthly salary, we need to follow these steps:
+
+1. **Calculate daily earnings**: 
+   - Julie earns $5 per hour.
+   - She works 8 hours each day.
+   \[
+   \text{Daily Earnings} = \$5 \times 8 = \$40
+   \]
+
+2. **Calculate weekly earnings**:
+   - Julie works 6 days a week.
+   \[
+   \text{Weekly Earnings} = \$40 \times 6 = \$240
+   \]
+
+3. **Calculate monthly earnings (assuming 4 weeks in a month)**:
+   - There are approximately 4 weeks in a month.
+   \[
+   \text{Monthly Earnings} = \$240 \times 4 = \$960
+   \]
+
+Therefore, Julie's monthly salary would be $\boxed{960}$ dollars.
+Scoring method: boxed
+
+============================================================
+ID: gsm8k-train-3894
+Subject: mathematics
+Question: Tony drives a car that gets 25 miles to the gallon. He drives 50 miles round trip to work 5 days a week. His tank holds 10 gallons. He begins the week with a full tank and when he runs out he fills up at the local gas station for $2 a gallon. How much money does Tony spend on gas in 4 weeks?
+Expected: First, we need to determine how many miles Tony drives in 4 weeks. We do this by performing 50*5=250 miles per week.
+Next, we multiply the weekly total by 4 by performing 4*250= 1000 miles in 4 weeks.
+Now, we need to find out how many times Tony needs to fill up his gas tank. His gas tank holds enough gas to last 25*10=250 miles.
+This means in 4 weeks, he needs to fill up his tank 1000/250= 4 times.
+Since Tony's gas tank holds 10 gallons, this means he needs to pay for 4*10- 40 gallons of gas in a month.
+Since gas costs $2 a gallon, this means Tony spends 40*2=$80 on gas every month,
+Final answer: 80
+Prediction: To determine how much money Tony spends on gas in 4 weeks, we need to follow these steps:
+
+1. **Calculate the total distance Tony drives per day:**
+   - Tony drives 50 miles round trip to work.
+   - He works 5 days a week.
+   \[
+   \text{Daily distance} = 50 \text{ miles/day}
+   \]
+
+2. **Calculate the weekly distance driven:**
+   - There are 7 days in a week.
+   \[
+   \text{Weekly distance} = 50 \text{ miles/day} \times 5 \text{ days/week} = 250 \text{ miles/week}
+   \]
+
+3. **Calculate the number of times Tony refills his tank in one week:**
+   - His tank holds 10 gallons.
+   - Each refill costs $2 per gallon.
+   \[
+   \text{Number of refills per week} = \frac{\text{Weekly distance}}{\text{Tank capacity}} = \frac{250 \text{ miles/week}}{10 \text{ gallons}} = 25 \text{ refills/week}
+   \]
+
+4. **Calculate the cost of gas per week:**
+   - Each refill costs $2.
+   \[
+   \text{Cost per week} = 25 \text{ refills/week} \times \$2/\text{refill} = \$50/\text{week}
+   \]
+
+5. **Calculate the total cost of gas over 4 weeks:**
+   - Cost per week is $50.
+   \[
+   \text{Total cost over 4 weeks} = 4 \text{ weeks} \times \$50/\text{week} = \$200
+   \]
+
+Therefore, the amount of money Tony spends on gas in 4 weeks is:
+\[
+\boxed{200}
+\]
+Scoring method: boxed
+
+Remaining unmatched answers: 10
+No reports changed.

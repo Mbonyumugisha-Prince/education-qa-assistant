@@ -1,0 +1,51 @@
+{
+  "source": "/Users/Prince/Documents/education-qa-assistant/data/processed/education/train_length_filtered.jsonl",
+  "training_copy": "/Users/Prince/Documents/education-qa-assistant/data/processed/education/train_support_screened.jsonl",
+  "held_out_copy": "/Users/Prince/Documents/education-qa-assistant/data/processed/education/train_support_held_out.jsonl",
+  "retained_subject_counts": {
+    "mathematics": 6726,
+    "science": 9496
+  },
+  "review_actions": {
+    "flagged_examples_held_out": 723,
+    "reviewed_flags_retained": 17,
+    "reviewed_target_corrections": 1
+  },
+  "reviewed_keep_ids": [
+    "sciq-train-11038",
+    "sciq-train-1314",
+    "sciq-train-1655",
+    "sciq-train-2152",
+    "sciq-train-2286",
+    "sciq-train-2926",
+    "sciq-train-3338",
+    "sciq-train-4349",
+    "sciq-train-4894",
+    "sciq-train-5627",
+    "sciq-train-5895",
+    "sciq-train-6648",
+    "sciq-train-7353",
+    "sciq-train-7825",
+    "sciq-train-8277",
+    "sciq-train-8610",
+    "sciq-train-9770"
+  ],
+  "target_corrections": {
+    "sciq-train-2435": "skeletal muscle"
+  },
+  "reviewed_hold_ids": [
+    "sciq-train-10300",
+    "sciq-train-11486",
+    "sciq-train-1811",
+    "sciq-train-2427",
+    "sciq-train-2489",
+    "sciq-train-4412",
+    "sciq-train-472",
+    "sciq-train-5032",
+    "sciq-train-5871",
+    "sciq-train-6331",
+    "sciq-train-7201",
+    "sciq-train-7634"
+  ],
+  "limitations": "Unflagged examples have not all been semantically verified. Held-out examples are not automatically incorrect. Mathematics arithmetic remains unchecked. This file is a screened candidate, not a certified dataset."
+}

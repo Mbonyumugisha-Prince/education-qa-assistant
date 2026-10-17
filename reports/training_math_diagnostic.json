@@ -1,0 +1,178 @@
+{
+  "model": "/Users/Prince/Documents/education-qa-assistant/models/flan-t5-small-full",
+  "split": "train",
+  "sampling_seed": 42,
+  "max_new_tokens": 256,
+  "metrics": {
+    "mathematics": "Extracted final-number match"
+  },
+  "scores": {
+    "mathematics": {
+      "correct": 0,
+      "total": 20,
+      "accuracy": 0.0
+    }
+  },
+  "predictions": [
+    {
+      "id": "gsm8k-train-3638",
+      "subject": "mathematics",
+      "question": "To support the school outreach program, Einstein wants to raise $500 by selling snacks. One box of pizza sells for $12, a pack of potato fries sells for $0.30, and a can of soda at $2. Einstein sold 15 boxes of pizzas, 40 packs of potato fries, and 25 cans of soda. How much more money does Einstein need to raise to reach his goal?",
+      "target": "Einstein collected 15 x $12 = $180 for selling pizzas.\nHe collected 40 x $0.30 = $12 for the 40 packs of potato fries.\nHe collected 25 x $2 = $50 for the 25 cans of soda.\nThus, the total amount section Einstein collected was $180 + $12 +$50 = $242.\nTherefore, Einstein needs $500 - $242 = $258 more to reach the goal.\nFinal answer: 258",
+      "prediction": "Einstein sold 15 boxes of pizzas * $12/box = $18. He sold 40 packs of potato fries * $0.30/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He sold 25 cans of soda * $2/can = $2. He",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-2020",
+      "subject": "mathematics",
+      "question": "Bob can shuck 10 oysters in 5 minutes. How many oysters can he shuck in 2 hours?",
+      "target": "He shucks 10 oysters in 5 minutes we need to know how many 5 minute units are in 60 minutes so 60/5 = 12 units\nHe can shuck 10 oysters in 5 minutes and there are 12 5 minute units in an hour so he can shuck 10*12 = 120 oysters in 1 hour\nIf he can shuck 120 oysters in 1 hour, so for 2 hours in can shuck 2*120 = 240 oysters\nFinal answer: 240",
+      "prediction": "Bob can shuck 10*5=20 oysters in 2 hours. Final answer: 20",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-1882",
+      "subject": "mathematics",
+      "question": "A banana tree has 100 bananas left after Raj cut some bananas from it. If Raj has eaten 70 bananas and has twice as many remaining in his basket, how many bananas were on the tree initially?",
+      "target": "If Raj has eaten 70 bananas in the basket, he has 2*70 = 140 bananas.\nThe total number of bananas that Raj cut from the tree is 140+70 = 210\nOn the tree initially were 100+210 =310 bananas.\nFinal answer: 310",
+      "prediction": "Raj has eaten 70 x 2 = 240 bananas. He has eaten 240 - 70 = 240 bananas. He has twice as many bananas left in his basket as he has, so he has 240 - 240 = 240 bananas left. Final answer: 240",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-5767",
+      "subject": "mathematics",
+      "question": "Jefferson has 56 bananas, while Walter, his friend, has 1/4 times fewer bananas. If they decide to combine their bananas and share them equally between themselves, how many bananas does Walter get?",
+      "target": "Walter has 1/4 * 56 bananas = 14 fewer bananas.\nIf Jefferson has 56 bananas, then Walter has 56 bananas - 14 bananas = 42 bananas\nWhen they combine their bananas, they have a total of 42 bananas + 56 bananas = 98 bananas.\nAfter dividing the bananas equally, Walter gets 98 bananas/2 = 49 bananas\nFinal answer: 49",
+      "prediction": "Jefferson has 56 - 1/4 = 12 bananas. Walter has 56 - 12 = 12 bananas. Final answer: 12",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-1888",
+      "subject": "mathematics",
+      "question": "The New York City Council bought 200 streetlights to modernize its squares. But they don't have enough squares to use all the streetlights bought. Knowing that there are 15 squares in New York and that each park will have 12 new streetlights bought by the city council, how many unused streetlights will remain?",
+      "target": "So the total number of streetlights that will be used is 15 squares * 12 streetlights/square = 180 streetlights\nThere will be 200 streetlights - 180 streetlights = 20 streetlights unused.\nFinal answer: 20",
+      "prediction": "The city council bought 200 x 15 = 240 streetlights. The city council bought 240 - 120 = 240 streetlights. The city council bought 240 - 240 = 240 streetlights. Final answer: 240",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-372",
+      "subject": "mathematics",
+      "question": "TJ ran a 10K race last Saturday. He ran the first half in 20 minutes. He completed the second half in 30 minutes. What was his average time per kilometer?",
+      "target": "He ran the 10 kilometers in a total of 20 + 30 = 50 minutes.\nTherefore, he ran at a pace of 50 minutes / 10 kilometers = 5 minutes per kilometer.\nFinal answer: 5",
+      "prediction": "He ran the first half in 20 minutes - 30 minutes = 30 minutes. He completed the second half in 30 minutes - 30 minutes = 30 minutes. He ran the average time per kilometer - 30 minutes = 30 minutes. Final answer: 30",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-2866",
+      "subject": "mathematics",
+      "question": "Erin is watching a TV mini series of Pride and Prejudice. There are 6 episodes that are each 50 minutes long. If Erin watches all of the episodes in one sitting, one after the other with no breaks, how many hours will she spend watching the series?",
+      "target": "The total minutes in the series is 6 * 50 = 300 minutes\nSince there are 60 minutes in an hour, Erin will spend 300 / 60 = 5 hours watching the series\nFinal answer: 5",
+      "prediction": "There are 6 * 50 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are 240 / 2 = 240 minutes in one sitting. There are ",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-2632",
+      "subject": "mathematics",
+      "question": "The swimming club went to a swim meet in another town. They took 2 cars and 3 vans. There were 5 people in each car and 3 people in each van. Each car can hold a maximum of 6 people and each van can hold a maximum of 8 people. How many more people could have ridden with the swim team?",
+      "target": "The available number of people in each car is 6 * 2 cars = 12 people.\nThe available number of people in each van is 8 * 3 vans = 24 people.\nThe total number of people that could go with the team is 12 people + 24 people = 36 people.\nThe team took with them 2 cars * 5 people = 10 people.\nThe team also took 3 vans * 3 people = 9 people.\nThe team brought 10 people + 9 people =19 people.\nThe team could bring an additional 36 people - 19 people = 17 people.\nFinal answer: 17",
+      "prediction": "There were 5 + 3 = 6 people in each car. There were 6 - 6 = 6 people in each van. There were 6 - 6 = 6 people in each van. There were 6 - 6 = 6 people in each van. There were 6 - 8 = 6 people in each van. There were 6 - 8 = 6 more people in each van. Final answer: 6",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-79",
+      "subject": "mathematics",
+      "question": "James spends 40 years teaching. His partner has been teaching for 10 years less. How long is their combined experience?",
+      "target": "His partner has been teaching for 40-10=30 years\nSo together they have 40+30=70 years of experience\nFinal answer: 70",
+      "prediction": "James spends 40+10=40 years teaching. His partner has been teaching for 10 years less than 10 years, so they spend 40+10=40 years teaching. Their combined experience is 40+40=40 years Final answer: 40",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-638",
+      "subject": "mathematics",
+      "question": "James buys 200 lotto tickets for 2 dollars each. Of those tickets 20% are winners. 80% of the winners are for 5 dollars. 1 ticket is the grand prize of $5,000. The other tickets win an average of $10. How much did he profit?",
+      "target": "He spent 200*2=$400\nThere were 200*.2=40 tickets\nOf those 40*.8=32 are 5 dollar winners\nSo they win 32*5=$160\nHe has 40-32=8 other winning tickets\nOf those 8-1=7 wins $10\nSo they win 10*7=$70\nSo he won 5000+70+160-400=$4830\nFinal answer: 4830",
+      "prediction": "He bought 200 * 2 = 200 lotto tickets. He bought 200 * .8 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets. He bought 200 * 5 = 200 tickets.",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-7067",
+      "subject": "mathematics",
+      "question": "Marla is mixing a particular shade of lilac that's 70% blue paint, 20% red paint, and the rest white paint. If she adds 140 ounces of blue paint, how many ounces of white paint does she add?",
+      "target": "First find the total amount of paint Marla mixes by dividing the amount of blue paint by the percentage of the paint that's blue: 140 ounces / .7 = 200 ounces\nThen multiply the total amount of paint by the percentage that's white to find the number of white ounces: 200 ounces * 10% = 20 ounces\nFinal answer: 20",
+      "prediction": "First find the total number of blue paint: 70 ounces * 100% = 80% Then find the total number of red paint: 20% / 20% = 20% Then add the number of blue paint to find the total number of ounces: 140 ounces * 100% = 240 ounces Final answer: 240",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-832",
+      "subject": "mathematics",
+      "question": "John buys 1000 balloons. Each balloon holds 10 liters of air. If he buys 500-liter tanks of gas, how many tanks does he need to buy to fill all the balloons?",
+      "target": "He needs 1000*10=10000 liters of gas\nSo he needs 10000/500=20 tanks\nFinal answer: 20",
+      "prediction": "He needs 1000 x 10 = 500 liters of gas. So he needs 500 - 500 = 500 tanks of gas. So he needs 500 - 500 = 500 tanks of gas. Final answer: 500",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-4370",
+      "subject": "mathematics",
+      "question": "Kaiden and Adriel were to pick a certain number of apples from their farm. After picking 400 apples each, they realized they still had to pick some more, so each picked 3/4 times as many as they had picked earlier. When they checked the pickup truck that was carrying the apples, they found out they still needed to pick 600 apples each to reach the target number. How many apples were they targeting to pick?",
+      "target": "When they picked 400 apples each in the first round, they picked a total of 2*400 = 800 apples.\nThey picked 3/4*400 = 300 apples each in the second round.\nThe total number of apples they picked in the second round is 2*300 = 600\nThe total number of apples they'd picked so far is 800+600 = 1400\nWhen they checked the pickup truck that was carrying the apples, they found out they still needed to pick 600 apples each to reach the target number, a total of 2*600= 1200\nThe target number of apples they had to pick is 1200+1400 = 2600\nFinal answer: 2600",
+      "prediction": "Kaiden and Adriel picked 400*3=400 apples. They picked 3/4*400=400 apples. They picked 3*400=400 apples. They picked 600*3=400 apples. They were targeting to pick 600*400=400 apples. Final answer: 400",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-397",
+      "subject": "mathematics",
+      "question": "Ten friends decide to get an end-of-year gift for their teacher. They plan to split the cost of the gift equally. But four of the group drop out. The remaining friends split the cost equally among themselves. If each share is now $8 more, how much does the gift cost, in dollars?",
+      "target": "Let N be the original price each friend was going to pay.\n10N=6(N+8)\n10N=6N+48\n4N=48\nN=12\nThen the present costs 10*12=120.\nFinal answer: 120",
+      "prediction": "The total cost of the gift is $8 + 4 = $18. The total cost of the gift is $8 + $18 = $18. The total cost of the gift is $18 + $18 = $18. Final answer: 17",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-4763",
+      "subject": "mathematics",
+      "question": "Dave bought 8 books about animals, 6 books about outer space, and 3 books about trains to keep him busy over the holidays. Each book cost $6. How much did Dave spend on the books?",
+      "target": "Dave buys 8 books + 6 books + 3 books = 17 books in total.\nHe has to spend 17 books × $6/book = $102 if he wants to buy all the books.\nFinal answer: 102",
+      "prediction": "The books cost 8*6=$36. The books cost 3*6=$36. Dave spent $6+$36=$36. Final answer: 36",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-5746",
+      "subject": "mathematics",
+      "question": "12 archeology students and 4 teachers went on a field trip to a dinosaur museum. Student tickets cost $1 each, and adult tickets cost $3 each. How much did the museum tickets cost in all?",
+      "target": "The cost of the 12 student tickets is 12 * $1 = $12.\nThe cost of the 4 teacher tickets is 4 * $3 = $12.\nAdding the cost of the student and teacher tickets, the museum tickets cost $12 + $12 = $24 in total.\nFinal answer: 24",
+      "prediction": "The museum tickets cost 12*$1=$12 The museum tickets cost 4*$3=$12 The museum tickets cost 12*$12=$12 Final answer: 12",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-7063",
+      "subject": "mathematics",
+      "question": "Facebook decided to award a productivity bonus to all its female employees who are mothers. This productivity bonus will total 25% of Facebook's annual earnings, which was $5,000,000 for the year 2020. It is known that Facebook employs 3300 employees; one-third are men, and of the women, 1200 are not mothers. How much was the bonus that each female mother employee received, assuming each one received an equal amount?",
+      "target": "25% of Facebook's annual earnings is 25/100 * $5,000,000 = $1,250,000.\nThe number of male employees is 3300 * 1/3 = 1100.\nSo, the number of female employees is 3300 - 1100 = 2200.\nThe number of female employees who are not moms is 2200 - 1200 = 1000.\nSo the amount to be distributed to each mother would be $1,250,000 / 1000 = $1250.\nFinal answer: 1250",
+      "prediction": "The total number of female employees who are mothers is 3300 + 1300 = 3300. The total number of women who are not mothers is 3300 - 1200 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 1200 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 = 3300. The total number of female employees who are not mothers is 3300 + 3300 =",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-7384",
+      "subject": "mathematics",
+      "question": "In twenty years, Ramon will be twice as old as Loui today. If Loui is currently 23 years old, how old is Ramon now?",
+      "target": "If Loui is currently 23 years old, twice her age, which is the same as twice Ramon's age in twenty years, is 23*2=46\nIf in twenty years Ramon will be 46, currently he is 46-20= 26 years old.\nFinal answer: 26",
+      "prediction": "If Loui is currently 23 years old, Ramon will be 23 - 2 = 18 years old. Since Ramon is currently 23 years old, Ramon will be 18 - 2 = 18 years old. Final answer: 18",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-3677",
+      "subject": "mathematics",
+      "question": "A pumpkin patch allows people to come pick pumpkins to carve in the fall every year. They charge $3 per person for a pumpkin. The remaining pumpkins get turned into cans of pie filling, 3 pumpkins to a can. They grew 83 pumpkins this year and made $96 selling pumpkins for carving. How many cans of pie filling will the pumpkin patch produce?",
+      "target": "The pumpkin patch sold 96 / 3 = 32 pumpkins.\nThey have 83 - 32 = 51 pumpkins left.\nThus, the pumpkin patch will produce 51 / 3 = 17 cans of pie filling.\nFinal answer: 17",
+      "prediction": "The pumpkin patch will produce 83 x 3 = 96 cans of pie filling. The pumpkin patch will produce 96 x 3 = 96 cans of pie filling. Final answer: 96",
+      "correct": false
+    },
+    {
+      "id": "gsm8k-train-2475",
+      "subject": "mathematics",
+      "question": "Sarah bought 12 lollipops filled with caramel for a total of 3 dollars. She offered to share one-quarter of the lollipops with her friend, Julie, but Julie insisted on reimbursing Sarah for the cost of the lollipops shared. How much money, in cents, did Julie give Sarah to pay for the shared lollipops?",
+      "target": "Since one dollar is 100 cents, then 3 dollars is 3*100=300 cents.\nThe cost for one lollipop is 300/12=25 cents.\nOne-quarter of the lollipops is 12/4=3 lollipops.\nAt 25 cents per lollypop, 3 lolly’s cost 3*25=75 cents.\nFinal answer: 75",
+      "prediction": "Julie gave Sarah 12*3=$12 lollipops. She gave Julie 12*3=$12 lollipops. She gave Julie 12*3=$12 lollipops. Final answer: 12",
+      "correct": false
+    }
+  ]
+}

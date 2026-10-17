@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gsm8k-train-3638",
+    "question": "To support the school outreach program, Einstein wants to raise $500 by selling snacks. One box of pizza sells for $12, a pack of potato fries sells for $0.30, and a can of soda at $2. Einstein sold 15 boxes of pizzas, 40 packs of potato fries, and 25 cans of soda. How much more money does Einstein need to raise to reach his goal?",
+    "target": "Einstein collected 15 x $12 = $180 for selling pizzas.\nHe collected 40 x $0.30 = $12 for the 40 packs of potato fries.\nHe collected 25 x $2 = $50 for the 25 cans of soda.\nThus, the total amount section Einstein collected was $180 + $12 +$50 = $242.\nTherefore, Einstein needs $500 - $242 = $258 more to reach the goal.\nFinal answer: 258",
+    "prediction": "Einstein collected 15 x $12 = $180 for selling pizzas. He collected 40 x $0.30 = $12 for the 40 packs of potato fries. He collected 25 x $2 = $50 for the 25 cans of soda. Thus, the total amount section Einstein collected was $180 + $12 +$50 = $242. Therefore, Einstein needs $500 - $242 = $258 more to reach the goal. Final answer: 258"
+  },
+  {
+    "id": "gsm8k-train-2020",
+    "question": "Bob can shuck 10 oysters in 5 minutes. How many oysters can he shuck in 2 hours?",
+    "target": "He shucks 10 oysters in 5 minutes we need to know how many 5 minute units are in 60 minutes so 60/5 = 12 units\nHe can shuck 10 oysters in 5 minutes and there are 12 5 minute units in an hour so he can shuck 10*12 = 120 oysters in 1 hour\nIf he can shuck 120 oysters in 1 hour, so for 2 hours in can shuck 2*120 = 240 oysters\nFinal answer: 240",
+    "prediction": "He shucks 10 oysters in 5 minutes we need to know how many 5 minute units are in 60 minutes so 60/5 = 12 units He can shuck 10 oysters in 5 minutes and there are 12 5 minute units in an hour so he can shuck 10*12 = 120 oysters in 1 hour If he can shuck 120 oysters in 1 hour, so for 2 hours in can shuck 2*120 = 240 oysters Final answer: 240"
+  },
+  {
+    "id": "gsm8k-train-1882",
+    "question": "A banana tree has 100 bananas left after Raj cut some bananas from it. If Raj has eaten 70 bananas and has twice as many remaining in his basket, how many bananas were on the tree initially?",
+    "target": "If Raj has eaten 70 bananas in the basket, he has 2*70 = 140 bananas.\nThe total number of bananas that Raj cut from the tree is 140+70 = 210\nOn the tree initially were 100+210 =310 bananas.\nFinal answer: 310",
+    "prediction": "If Raj has eaten 70 bananas in the basket, he has 2*70 = 140 bananas. The total number of bananas that Raj cut from the tree is 140+70 = 210 On the tree initially were 100+210 =310 bananas. Final answer: 310"
+  },
+  {
+    "id": "gsm8k-train-5767",
+    "question": "Jefferson has 56 bananas, while Walter, his friend, has 1/4 times fewer bananas. If they decide to combine their bananas and share them equally between themselves, how many bananas does Walter get?",
+    "target": "Walter has 1/4 * 56 bananas = 14 fewer bananas.\nIf Jefferson has 56 bananas, then Walter has 56 bananas - 14 bananas = 42 bananas\nWhen they combine their bananas, they have a total of 42 bananas + 56 bananas = 98 bananas.\nAfter dividing the bananas equally, Walter gets 98 bananas/2 = 49 bananas\nFinal answer: 49",
+    "prediction": "Walter has 1/4 * 56 bananas = 14 fewer bananas. If Jefferson has 56 bananas, then Walter has 56 bananas - 14 bananas = 42 bananas When they combine their bananas, they have a total of 42 bananas + 56 bananas = 98 bananas. After dividing the bananas equally, Walter gets 98 bananas/2 = 49 bananas Final answer: 49"
+  }
+]

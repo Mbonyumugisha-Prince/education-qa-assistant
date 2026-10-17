@@ -1,0 +1,44 @@
+{
+  "metric": "Manual acceptance under stated review rules",
+  "note": "Science checks passage support. Mathematics checks the result and explanation. Flagged questions are excluded. This small validation sample does not establish general reliability.",
+  "summary": {
+    "Original": {
+      "science": {
+        "counts": {
+          "correct": 48,
+          "ambiguous": 2
+        },
+        "eligible_questions": 48,
+        "reviewed_success_rate": 1.0
+      },
+      "mathematics": {
+        "counts": {
+          "correct": 38,
+          "wrong": 11,
+          "ambiguous": 1
+        },
+        "eligible_questions": 49,
+        "reviewed_success_rate": 0.7755102040816326
+      }
+    },
+    "V3 step-250": {
+      "science": {
+        "counts": {
+          "correct": 48,
+          "ambiguous": 2
+        },
+        "eligible_questions": 48,
+        "reviewed_success_rate": 1.0
+      },
+      "mathematics": {
+        "counts": {
+          "correct": 40,
+          "wrong": 9,
+          "ambiguous": 1
+        },
+        "eligible_questions": 49,
+        "reviewed_success_rate": 0.8163265306122449
+      }
+    }
+  }
+}
