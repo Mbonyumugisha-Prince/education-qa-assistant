@@ -1,0 +1,137 @@
+{
+  "baseline_report": "reports/v9_programming_step102_validation.json",
+  "adapter": "models/qwen-general-lora-v9-pilot/step-102",
+  "evaluation_scope": "Two validation programs; five declared checks each",
+  "programs_passed_all_checks": 0,
+  "programs_total": 2,
+  "results": [
+    {
+      "id": "v8-longest_equal_run-python",
+      "language": "python",
+      "checks_passed": 0,
+      "checks_total": 5,
+      "all_checks_passed": false,
+      "cases": [
+        {
+          "name": "mixed_whitespace",
+          "input": "8\n2 2\n2 5 5\n7 7 7\n",
+          "expected": "3",
+          "passed": false,
+          "returncode": 0,
+          "stdout": "2\n",
+          "stderr": "",
+          "timed_out": false
+        },
+        {
+          "name": "one_value_per_line",
+          "input": "5\n4\n4\n4\n4\n9\n",
+          "expected": "4",
+          "passed": false,
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "timed_out": false
+        },
+        {
+          "name": "empty_list",
+          "input": "0\n",
+          "expected": "0",
+          "passed": false,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Traceback (most recent call last):\n  File \"/var/folders/fk/dxmgv95s2lgf2zw7gfvhqdnr0000gp/T/v6_programming_validation_dpacpfrb/solution.py\", line 23, in <module>\n    values = [int(x) for x in input().split()]\n                              ^^^^^^^\nEOFError: EOF when reading a line\n",
+          "timed_out": false
+        },
+        {
+          "name": "all_tokens_on_one_line",
+          "input": "5 -8 -8 -8 -8 -8\n",
+          "expected": "5",
+          "passed": false,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Traceback (most recent call last):\n  File \"/var/folders/fk/dxmgv95s2lgf2zw7gfvhqdnr0000gp/T/v6_programming_validation_dpacpfrb/solution.py\", line 22, in <module>\n    n = int(input())\n        ^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '5 -8 -8 -8 -8 -8'\n",
+          "timed_out": false
+        },
+        {
+          "name": "signed_64_bit_values",
+          "input": "4\n-9223372036854775808 9223372036854775807\n9223372036854775807 9223372036854775807\n",
+          "expected": "3",
+          "passed": false,
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "timed_out": false
+        }
+      ],
+      "status": "failed_declared_checks"
+    },
+    {
+      "id": "v8-longest_equal_run-java",
+      "language": "java",
+      "checks_passed": 0,
+      "checks_total": 5,
+      "all_checks_passed": false,
+      "cases": [
+        {
+          "name": "mixed_whitespace",
+          "input": "8\n2 2\n2 5 5\n7 7 7\n",
+          "expected": "3",
+          "passed": false,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\tat java.base/java.util.Scanner.next(Scanner.java:1478)\n\tat Main.main(Main.java:10)\n",
+          "timed_out": false
+        },
+        {
+          "name": "one_value_per_line",
+          "input": "5\n4\n4\n4\n4\n9\n",
+          "expected": "4",
+          "passed": false,
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "timed_out": false
+        },
+        {
+          "name": "empty_list",
+          "input": "0\n",
+          "expected": "0",
+          "passed": false,
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "timed_out": false
+        },
+        {
+          "name": "all_tokens_on_one_line",
+          "input": "5 -8 -8 -8 -8 -8\n",
+          "expected": "5",
+          "passed": false,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\tat java.base/java.util.Scanner.next(Scanner.java:1478)\n\tat Main.main(Main.java:10)\n",
+          "timed_out": false
+        },
+        {
+          "name": "signed_64_bit_values",
+          "input": "4\n-9223372036854775808 9223372036854775807\n9223372036854775807 9223372036854775807\n",
+          "expected": "3",
+          "passed": false,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Exception in thread \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\tat java.base/java.util.Scanner.next(Scanner.java:1478)\n\tat Main.main(Main.java:10)\n",
+          "timed_out": false
+        }
+      ],
+      "compilation": {
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "status": "failed_declared_checks"
+    }
+  ],
+  "training_performed": false,
+  "test_split_accessed": false
+}

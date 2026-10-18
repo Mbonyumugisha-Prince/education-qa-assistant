@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-18T14:01:41.337495+00:00",
+  "evaluation": "V9 step-102 programming validation baseline",
+  "dataset": "data/processed/v8_programming_pilot/validation.jsonl",
+  "adapter": "models/qwen-general-lora-v9-pilot/step-102",
+  "generation_path": "EducationAssistant.answer",
+  "expected_examples": 2,
+  "completed": true,
+  "programs_executed": false,
+  "training_performed": false,
+  "results": [
+    {
+      "id": "v8-longest_equal_run-python",
+      "language": "python",
+      "problem_family": "longest_equal_run",
+      "question": "Read n followed by n integers separated by arbitrary whitespace. Assume n >= 0. Print the length of the longest consecutive run of equal values. For an empty list, print 0. Values fit in a signed 64-bit integer.",
+      "answer": "```python\nimport sys\n\ndef max_consecutive_run(values):\n    if len(values) == 0:\n        return 0\n    \n    current_value = None\n    current_count = 0\n    max_count = 1\n    \n    for value in values:\n        if value != current_value:\n            if current_value is not None:\n                max_count = max(max_count, current_count)\n            current_value = value\n            current_count = 1\n        else:\n            current_count += 1\n            \n    return max(max_count, current_count)\n\nn = int(input())\nvalues = [int(x) for x in input().split()]\nprint(max_consecutive_run(values))\n```\n\nThis program reads `n` integers from standard input, where `n` is non-negative. It then calculates the maximum number of consecutive identical integers that can be found within this sequence. If there are no such sequences (i.e., all numbers are unique), it returns 0.\n\nExample:\n\nInput:\n```\n5\n3 2 3 2 2\n```\n\nOutput:\n```\n3\n```",
+      "extracted_program": "import sys\n\ndef max_consecutive_run(values):\n    if len(values) == 0:\n        return 0\n    \n    current_value = None\n    current_count = 0\n    max_count = 1\n    \n    for value in values:\n        if value != current_value:\n            if current_value is not None:\n                max_count = max(max_count, current_count)\n            current_value = value\n            current_count = 1\n        else:\n            current_count += 1\n            \n    return max(max_count, current_count)\n\nn = int(input())\nvalues = [int(x) for x in input().split()]\nprint(max_consecutive_run(values))",
+      "requested_language_block_found": true,
+      "duration_seconds": 53.468,
+      "execution_status": "not_run",
+      "correctness": "not_scored"
+    },
+    {
+      "id": "v8-longest_equal_run-java",
+      "language": "java",
+      "problem_family": "longest_equal_run",
+      "question": "Read n followed by n integers separated by arbitrary whitespace. Assume n >= 0. Print the length of the longest consecutive run of equal values. For an empty list, print 0. Values fit in a signed 64-bit integer.",
+      "answer": "```java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        long maxCount = 1;\n        long count = 1;\n        for (int i = 1; i < n; i++) {\n            if (scanner.next().equals(scanner.nextLine())) {\n                count++;\n            } else {\n                maxCount = Math.max(maxCount, count);\n                count = 1;\n            }\n        }\n        System.out.println(Math.max(maxCount, count));\n    }\n}\n```\n\nThis Java program reads `n` integers from standard input, where `n` is non-negative. It then finds the maximum number of consecutive identical integers among them. If there are no such numbers, it prints `0`. The solution uses two variables, `maxCount` and `count`, to keep track of the current maximum sequence length and the current sequence length respectively. It iterates through each pair of adjacent integers, updating these counts accordingly. Finally, it outputs the larger value between `maxCount` and `count`.\n\nExample Input:\n```\n5\n2 3 3 2 3\n```\n\nExpected Output:\n```\n3\n```",
+      "extracted_program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        long maxCount = 1;\n        long count = 1;\n        for (int i = 1; i < n; i++) {\n            if (scanner.next().equals(scanner.nextLine())) {\n                count++;\n            } else {\n                maxCount = Math.max(maxCount, count);\n                count = 1;\n            }\n        }\n        System.out.println(Math.max(maxCount, count));\n    }\n}",
+      "requested_language_block_found": true,
+      "duration_seconds": 216.906,
+      "execution_status": "not_run",
+      "correctness": "not_scored"
+    }
+  ]
+}

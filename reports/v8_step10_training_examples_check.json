@@ -1,0 +1,20 @@
+{
+  "adapter": "models/qwen-general-lora-v8-pilot/step-10",
+  "purpose": "Training-example diagnostic, not held-out accuracy",
+  "results": [
+    {
+      "id": "v8-sum_even_values-python",
+      "language": "python",
+      "question": "Read n followed by n integers separated by arbitrary whitespace. Assume n >= 0. Print the sum of the even values, excluding n. Handle negative values. Values and their total fit in a signed 64-bit integer.",
+      "generated_answer": "```python\nimport sys\n\nn = int(input())\nnumbers = list(map(int, input().split()))\n\neven_sum = sum(num for num in numbers if num % 2 == 0)\n\nprint(even_sum)\n```\n\nThis script reads `n` followed by `n` integers into a list. It then calculates the sum of all even numbers (excluding `n`). The result is printed.\n\nExample:\nInput:\n```\n5\n1 2 3 4 5 -6\n```\nOutput:\n```\n9\n```\n\nExplanation:\nThe even numbers are 2, 4, and -6. Their sum is 8 + (-6) = 2.",
+      "training_target": "```python\nimport sys\ndata = list(map(int, sys.stdin.read().split()))\nn = data[0]\nvalues = data[1:]\nif len(values) != n:\n    raise ValueError('Expected exactly n values.')\nprint(sum(x for x in values if x % 2 == 0))\n```\n\nRead the count separately from the values. Add only values divisible by two. Whitespace-based reading handles spaces and newlines."
+    },
+    {
+      "id": "v8-sum_even_values-java",
+      "language": "java",
+      "question": "Read n followed by n integers separated by arbitrary whitespace. Assume n >= 0. Print the sum of the even values, excluding n. Handle negative values. Values and their total fit in a signed 64-bit integer.",
+      "generated_answer": "```java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        long sum = 0;\n        \n        for (int i = 1; i <= n; i++) {\n            if (i != n && i % 2 == 0) {\n                sum += i;\n            }\n        }\n        \n        System.out.println(sum);\n    }\n}\n```\n\nThis Java program reads `n` followed by `n` integers from standard input, sums only the even numbers that are not equal to `n`, and prints the result.\n\nExplanation:\n- The program uses a `Scanner` object to read input from standard input.\n- It initializes a variable `sum` to store the sum of even numbers.\n- A loop runs from 1 to `n`, checking each number to see if it is even and not equal to `n`.\n- If both conditions are met, the number is added to `sum`.\n- Finally, the program prints the value of `sum`.\n\nExample Input:\n```\n5\n3 7 8 9 10\n```\n\nExpected Output:\n```\n18\n```",
+      "training_target": "```java\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner in = new Scanner(System.in);\n        int n = in.nextInt();\n        long total = 0;\n        for (int i = 0; i < n; i++) {\n            long value = in.nextLong();\n            if (value % 2 == 0) total += value;\n        }\n        System.out.println(total);\n    }\n}\n```\n\nRead the count separately from the values. Add only values divisible by two. Whitespace-based reading handles spaces and newlines."
+    }
+  ]
+}
