@@ -27,3 +27,4 @@ models/
 
 # macOS
 .DS_Store
+/tools/gguf-venv/
